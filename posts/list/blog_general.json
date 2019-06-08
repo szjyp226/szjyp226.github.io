@@ -1,0 +1,20 @@
+{
+  "title": "Nuxt.js + Vuetify + processmd",
+  "description": "半个人定制博客 优势在于不受主题的一些局限，可以自由的定制与增删页面，没有过度的封装",
+  "tags": [
+    "博客",
+    "Nuxt.js",
+    "Vuetify",
+    "processmd"
+  ],
+  "category": "开发",
+  "created_at": "2019-06-03 19:35:53",
+  "updated_at": "2019-06-03 19:35:53",
+  "bodyContent": "# 预留一篇用来写这个博客生成的一些教程\r\ntodo: 待定",
+  "bodyHtml": "<h1>预留一篇用来写这个博客生成的一些教程</h1>\n<p>todo: 待定</p>\n",
+  "dir": "static/posts/list",
+  "base": "blog_general.json",
+  "ext": ".json",
+  "sourceBase": "blog_general.md",
+  "sourceExt": ".md"
+}

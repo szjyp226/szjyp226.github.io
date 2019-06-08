@@ -1,0 +1,42 @@
+{
+  "fileMap": {
+    "static/posts/list/prototype.json": {
+      "title": "原型/原型链的一些粗解",
+      "description": "无论是开发时，还是在寻找资料时，在这个过程里总偶尔会碰上看到或使用到原型的时候，这里粗草的描述一下个人的见解。",
+      "tags": [
+        "原型",
+        "原型链"
+      ],
+      "category": "开发",
+      "created_at": "2019-06-07 16:45:44",
+      "updated_at": "2019-06-07 16:45:44",
+      "dir": "static/posts/list",
+      "base": "prototype.json",
+      "ext": ".json",
+      "sourceBase": "prototype.md",
+      "sourceExt": ".md"
+    },
+    "static/posts/list/blog_general.json": {
+      "title": "Nuxt.js + Vuetify + processmd",
+      "description": "半个人定制博客 优势在于不受主题的一些局限，可以自由的定制与增删页面，没有过度的封装",
+      "tags": [
+        "博客",
+        "Nuxt.js",
+        "Vuetify",
+        "processmd"
+      ],
+      "category": "开发",
+      "created_at": "2019-06-03 19:35:53",
+      "updated_at": "2019-06-03 19:35:53",
+      "dir": "static/posts/list",
+      "base": "blog_general.json",
+      "ext": ".json",
+      "sourceBase": "blog_general.md",
+      "sourceExt": ".md"
+    }
+  },
+  "sourceFileArray": [
+    "contents/markdown/blog_general.md",
+    "contents/markdown/prototype.md"
+  ]
+}
