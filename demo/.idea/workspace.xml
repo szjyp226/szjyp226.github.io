@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="09c09104-75d8-45bf-b5cd-9e10278cdcf1" name="Default Changelist" comment="" />
+    <list default="true" id="09c09104-75d8-45bf-b5cd-9e10278cdcf1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/css/insert.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,10 +33,15 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1gijf3CEJgQ4bHugFb1Nfl7dMNw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -23,7 +50,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/Yarn/bin/node-sass" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
@@ -65,11 +92,23 @@
       <option name="presentableId" value="Default" />
       <updated>1598604406262</updated>
       <workItem from="1598604407343" duration="12214000" />
+      <workItem from="1598617416411" duration="111000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="1094" y="547" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1598614806931">
@@ -120,9 +159,9 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1164" y="432" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1598614817414" />
-    <state x="892" y="455" width="725" height="536" key="find.popup" timestamp="1598615110969">
+    <state x="892" y="455" width="725" height="536" key="find.popup" timestamp="1598617441072">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="892" y="455" width="725" height="536" key="find.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1598615110969" />
+    <state x="892" y="455" width="725" height="536" key="find.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1598617441072" />
   </component>
 </project>
