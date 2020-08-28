@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09c09104-75d8-45bf-b5cd-9e10278cdcf1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/css/insert.scss" afterDir="false" />
+    <list default="true" id="09c09104-75d8-45bf-b5cd-9e10278cdcf1" name="Default Changelist" comment="更新忽略">
+      <change afterPath="$PROJECT_DIR$/Robots.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -92,8 +92,23 @@
       <option name="presentableId" value="Default" />
       <updated>1598604406262</updated>
       <workItem from="1598604407343" duration="12214000" />
-      <workItem from="1598617416411" duration="111000" />
+      <workItem from="1598617416411" duration="544000" />
     </task>
+    <task id="LOCAL-00001" summary="更新demo">
+      <created>1598617571225</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598617571226</updated>
+    </task>
+    <task id="LOCAL-00002" summary="更新忽略">
+      <created>1598617609798</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598617609798</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,6 +124,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="更新demo" />
+    <MESSAGE value="更新忽略" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新忽略" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1094" y="547" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1598614806931">
@@ -159,6 +179,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1164" y="432" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1598614817414" />
+    <state x="934" y="531" key="Vcs.Push.Dialog.v2" timestamp="1598617611376">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="934" y="531" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1598617611376" />
     <state x="892" y="455" width="725" height="536" key="find.popup" timestamp="1598617441072">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
