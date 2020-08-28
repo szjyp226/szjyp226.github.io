@@ -46,6 +46,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/Yarn/bin/node-sass" />
@@ -64,11 +65,14 @@
       <recent name="D:\Projects\work\about_huawei\resources\fonts\Helvetica" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
     <configuration name="支持计划特惠-华为云.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/about_huawei/支持计划特惠-华为云.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="floatpage-HUAWEI CLOUD.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/about_huawei/resources/contents/html/floatpage-HUAWEI CLOUD.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/demo/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/about_huawei/index.html" useBuiltInWebServerPort="true">
@@ -76,6 +80,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.floatpage-HUAWEI CLOUD.html" />
         <item itemvalue="JavaScript Debug.支持计划特惠-华为云.html" />
@@ -91,7 +96,8 @@
       <option name="presentableId" value="Default" />
       <updated>1598604406262</updated>
       <workItem from="1598604407343" duration="12214000" />
-      <workItem from="1598617416411" duration="590000" />
+      <workItem from="1598617416411" duration="2741000" />
+      <workItem from="1598632412526" duration="996000" />
     </task>
     <task id="LOCAL-00001" summary="更新demo">
       <created>1598617571225</created>
@@ -114,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598617978092</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="更新Robots">
+      <created>1598618024792</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1598618024792</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,6 +143,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="更新demo" />
@@ -186,13 +200,17 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1164" y="432" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1598614817414" />
-    <state x="934" y="531" key="Vcs.Push.Dialog.v2" timestamp="1598617979315">
+    <state x="934" y="531" key="Vcs.Push.Dialog.v2" timestamp="1598618026775">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="934" y="531" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1598617979315" />
+    <state x="934" y="531" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1598618026775" />
     <state x="892" y="455" width="725" height="536" key="find.popup" timestamp="1598617441072">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="892" y="455" width="725" height="536" key="find.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1598617441072" />
+    <state x="1173" y="495" width="672" height="678" key="search.everywhere.popup" timestamp="1598633367901">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1173" y="495" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1598633367901" />
   </component>
 </project>

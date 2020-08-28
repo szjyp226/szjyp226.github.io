@@ -1,127 +1,32 @@
 <!DOCTYPE HTML>
 <html lang="zh-CN" site="hk">
 <head>
-
     <meta charset="UTF-8"/>
     <meta name="applicable-device" content="pc,mobile"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
     <meta name="baidu-site-verification" content="nsMgQr28vc"/>
-
-
     <meta http-equiv="x-dns-prefetch-control" content="on"/>
-
-
     <meta name="templateName" content="page-home-hk-2020"/>
-
-
     <title>DEMO示例-不公开的</title>
-
-
-    <link type="image/x-icon"
-          href="./resources/icons/favicon.ico?sttl=202008280900"
-          rel="icon"/>
-
-
-    <link rel="stylesheet"
-          href="./resources/css/portal-global.css?sttl=202008280900"/>
-
-    <link rel="stylesheet"
-          href="./resources/css/index.css?sttl=201903020436">
+    <link type="image/x-icon" href="./resources/icons/favicon.ico?sttl=202008280900" rel="icon"/>
+    <link rel="stylesheet" href="./resources/css/portal-global.css?sttl=202008280900"/>
+    <link rel="stylesheet" href="./resources/css/index.css?sttl=201903020436"/>
     <style type="text/css">
         #content {
             padding-top: 0px !important;
         }
     </style>
-
-
     <link rel="stylesheet" href="./resources/css/base.css"/>
-
     <script src="./resources/js/3rd/jquery-1.12.4.min.js?sttl=202008280900"></script>
     <script src="./resources/js/3rd/AGrid.js?sttl=202008280900"></script>
     <script src="./resources/js/3rd/jquery.base64.js?sttl=202008280900"></script>
-
-<!--    <script>-->
-<!--        window.gConfig = window.gConfig || {};-->
-<!--        window.gConfig.isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);-->
-<!--        window.$aioList = [];-->
-<!--        window.$aioData = {};-->
-<!--    </script>-->
-
-
-<!--    <script>-->
-<!--        console.log(window.$aioList);-->
-<!--        if (window.$aioList) {-->
-<!--            for (var i = 0; i < window.$aioList.length; i++) {-->
-<!--                document.write('<link rel="stylesheet" href="//res.hc-cdn.com/cnpm-' + window.$aioList[i] + '/' + (window.gConfig.isMobile ? 'm' : 'pc') + '/index.css" />');-->
-<!--            }-->
-<!--        }-->
-<!--    </script>-->
-
-<!--    <link rel="canonical" href="https://www.huaweicloud.com/intl/zh-cn/"/>-->
-
     <meta name="google-site-verification" content="LVKTJ_XHr_apR2wYUfAhOnUpnPQThbmVMza8GhvOFhU"/>
     <meta name="sogou_site_verification" content="u4x6sJNooE"/>
-
-    <!--    <link rel="dns-prefetch" href="//res-static3.huaweicloud.com"/>-->
-    <!--    <link rel="dns-prefetch" href="//res-static2.huaweicloud.com"/>-->
-    <!--    <link rel="dns-prefetch" href="//res-static1.huaweicloud.com"/>-->
-    <!--    <link rel="dns-prefetch" href="//sdk.appadhoc.com"/>-->
-    <!--    <link rel="dns-prefetch" href="//res-img2.huaweicloud.com"/>-->
-    <!--    <link rel="dns-prefetch" href="//res-img3.huaweicloud.com"/>-->
-    <!--    <link rel="dns-prefetch" href="//experiment.appadhoc.com"/>-->
-    <!--    <link rel="dns-prefetch" href="//res.hc-cdn.com"/>-->
-    <!--    <link rel="dns-prefetch" href="//img.hc-cdn.com"/>-->
-    <!--    <link rel="dns-prefetch" href="//hm.baidu.com"/>-->
-    <!--    <link rel="dns-prefetch" href="//support.huaweicloud.com"/>-->
-    <!--    <link rel="dns-prefetch" href="//activity.huaweicloud.com"/>-->
-    <!--    <link rel="dns-prefetch" href="//portal.huaweicloud.com"/>-->
-    <!--    <link rel="dns-prefetch" href="//static.huaweicloud.com"/>-->
-    <!--    <link rel="dns-prefetch" href="//static-intl.huaweicloud.com"/>-->
-    <!--    <link rel="dns-prefetch" href="//img.huaweicloud.com"/>-->
-    <!--    <link rel="dns-prefetch" href="//res-img1.huaweicloud.com"/>-->
-    <!--    <link rel="dns-prefetch" href="//res-img1-intl.huaweicloud.com"/>-->
-    <!--    <link rel="dns-prefetch" href="//res-img3-intl.huaweicloud.com"/>-->
-    <!--    <link rel="dns-prefetch" href="//res-static1-intl.huaweicloud.com"/>-->
-    <!--    <link rel="dns-prefetch" href="//res-static2-intl.huaweicloud.com"/>-->
-    <!--    <link rel="dns-prefetch" href="//res-static3-intl.huaweicloud.com"/>-->
-    <!--    <link rel="dns-prefetch" href="//uba.huaweicloud.com"/>-->
-    <!--    <link rel="dns-prefetch" href="//uba-intl.huaweicloud.com"/>-->
-    <!--    <link rel="dns-prefetch" href="//fm.ipinyou.com"/>-->
-
-
     <script src="./resources/js/3rd/raven.min.js?sttl=202008280900"></script>
     <script src="./resources/js/3rd/pmp.js?sttl=202008280900"></script>
-
-
-    <script>
-        // var $entryCode = "";
-        // var $currentUrl = window.location.href;
-        // if ($currentUrl.indexOf("/price_detail.html") != -1 || $currentUrl.indexOf("/pricing.html") != -1 || $currentUrl.indexOf("/pricing/index.html") != -1) {
-        //     $entryCode = "https://9e940dcc48394223bfb17557fb031d94@excpt.huaweicloud.com/31";
-        // } else if ($currentUrl.indexOf("https://activity.huaweicloud.com") == 0) {
-        //     $entryCode = "https://92df18a2c20e4dd3be65ab2f6f6fc5a1@excpt.huaweicloud.com/3";
-        //     window.$activityPromptTips = true;
-        // } else if ($currentUrl.indexOf("https://www.huaweicloud.com") == 0) {
-        //     $entryCode = "https://486cdb13878440c58b9762ce5c7a3034@excpt.huaweicloud.com/4";
-        // } else if ($currentUrl.indexOf("https://support.huaweicloud.com") == 0) {
-        //     $entryCode = "https://f02fabbe4cf347dead0ab2f075658c3b@excpt.huaweicloud.com/7";
-        // }
-        // if ($currentUrl.indexOf("local.huaweicloud.com") != -1) {
-        //     $entryCode = "";
-        // }
-        // if ($entryCode != "" && PMP) {
-        //     var customerId = undefined;
-        //     PMP.RavenInit($entryCode, customerId, false, true);
-        // }
-    </script>
-
     <link rel="stylesheet" href="./resources/css/swiper-3.4.2.min.css?sttl=202008280900"/>
-
-    <!-- site info -->
-
-
 </head>
 <body>
 <script>
@@ -6231,7 +6136,7 @@
                                href="https://activity.huaweicloud.com/intl/zh-cn/828_promotion/index.html"
                                target="_blank">
                                 <div class="section-body-item-bg lazyload"
-                                     data-src="/content/dam/cloudbu-site/archive/hk/en-us/banner/2020-latest-news/0825-828dacu/pc-0825-1.jpg"></div>
+                                     data-src="./resources/imgs/pc-0825-1.jpg"></div>
                                 <p class="section-body-item-mainNews_title" title="企业上云节">企业上云节</p>
                                 <p class="section-body-item-mainNews_subTitle">三大解决方案特惠，消费最高返20%，绽放计划全新发布</p>
                             </a>
@@ -6367,57 +6272,46 @@
                         </div>
                     </div>
                     <div class="section-bottom">
-
-
                         <a target="_blank" href="https://www.huaweicloud.com/intl/zh-cn/securecenter/compliance.html"
                            class="section-logo" bi_name="SOC 2 Type II Report">
                             <img class="section-logo_image lazyload"
                                  data-src="./resources/imgs/SOC_1_Type_II_Report.png"/>
                             <p class="section-logo_text">SOC 2 Type II Report</p>
                         </a>
-
                         <a target="_blank" href="https://www.huaweicloud.com/intl/zh-cn/securecenter/compliance.html"
                            class="section-logo" bi_name="PCI DSS">
                             <img class="section-logo_image lazyload"
                                  data-src="./resources/imgs/PCI_DSS.png"/>
                             <p class="section-logo_text">PCI DSS</p>
                         </a>
-
                         <a target="_blank" href="https://www.huaweicloud.com/intl/zh-cn/securecenter/compliance.html"
                            class="section-logo" bi_name="DJCP">
                             <img class="section-logo_image lazyload"
                                  data-src="./resources/imgs/djcp.png"/>
                             <p class="section-logo_text">DJCP</p>
                         </a>
-
                         <a target="_blank" href="https://www.huaweicloud.com/intl/zh-cn/securecenter/compliance.html"
                            class="section-logo" bi_name="ISO 27001:2013">
                             <img class="section-logo_image lazyload"
                                  data-src="./resources/imgs/ISO_27001_2013.png"/>
                             <p class="section-logo_text">ISO 27001:2013</p>
                         </a>
-
                         <a target="_blank" href="https://www.huaweicloud.com/intl/zh-cn/securecenter/compliance.html"
                            class="section-logo" bi_name="ISO 22301:2012">
                             <img class="section-logo_image lazyload"
                                  data-src="./resources/imgs/ISO_22301_2012.png"/>
                             <p class="section-logo_text">ISO 22301:2012</p>
                         </a>
-
                         <a target="_blank" href="https://www.huaweicloud.com/intl/zh-cn/securecenter/compliance.html"
                            class="section-logo" bi_name="CSA STAR">
                             <img class="section-logo_image lazyload"
                                  data-src="./resources/imgs/csa.png"/>
                             <p class="section-logo_text">CSA STAR</p>
                         </a>
-
-
                     </div>
                 </div>
             </div>
         </div>
-
-
         <div class="home-global">
             <div class="home-global-site " id="global" data-mod-name="global-site" bi_parent_name="home-global-site"
                  data-report="home">
@@ -6435,177 +6329,94 @@
                     </div>
                     <div class="section-bottom">
                         <div class="tab-line">
-
-
                             <a class="tab-seletor active" data-key="1" bi_name="全球数据中心">
                                 全球数据中心
                             </a>
-
                             <a class="tab-seletor " data-key="2" bi_name="中国数据中心">
                                 中国数据中心
                             </a>
-
-
                         </div>
                         <div class="tab-content">
                             <div class="tab-section show" data-name="1">
                                 <div class="region-row">
-
-
                                     <div class="region-item">
                                         <p class="region-item_title">曼谷</p>
-
                                         <p class="region-item_az">可用区：2</p>
-
-
                                     </div>
-
                                     <div class="region-item">
                                         <p class="region-item_title">新加坡</p>
-
                                         <p class="region-item_az">可用区：3</p>
-
-
                                     </div>
-
                                     <div class="region-item">
                                         <p class="region-item_title">利马</p>
-
                                         <p class="region-item_az">可用区：2</p>
-
-
                                     </div>
-
                                     <div class="region-item">
                                         <p class="region-item_title">墨西哥城</p>
-
                                         <p class="region-item_az">可用区：1</p>
-
-
                                     </div>
-
                                     <div class="region-item">
                                         <p class="region-item_title">圣地亚哥</p>
-
                                         <p class="region-item_az">可用区：1</p>
-
-
                                     </div>
-
-
                                 </div>
                                 <div class="region-row">
-
-
                                     <div class="region-item">
                                         <p class="region-item_title">圣保罗</p>
-
                                         <p class="region-item_az">可用区：1</p>
-
-
                                     </div>
-
                                     <div class="region-item">
                                         <p class="region-item_title">约翰内斯堡</p>
-
                                         <p class="region-item_az">可用区：1</p>
-
-
                                     </div>
-
                                     <div class="region-item">
                                         <p class="region-item_title">布宜诺斯艾利斯</p>
-
                                         <p class="region-item_az">可用区：1</p>
-
-
                                     </div>
-
-
                                 </div>
                             </div>
                             <div class="tab-section" data-name="2">
                                 <div class="region-row">
-
-
                                     <div class="region-item">
                                         <p class="region-item_title">北京一</p>
-
                                         <p class="region-item_az">可用区：3</p>
-
-
                                     </div>
-
                                     <div class="region-item">
                                         <p class="region-item_title">北京四</p>
-
                                         <p class="region-item_az">可用区：3</p>
-
-
                                     </div>
-
                                     <div class="region-item">
                                         <p class="region-item_title">大连</p>
-
                                         <p class="region-item_az">可用区：1</p>
-
-
                                     </div>
 
                                     <div class="region-item">
                                         <p class="region-item_title">贵阳</p>
-
                                         <p class="region-item_az">可用区：1</p>
-
-
                                     </div>
-
                                     <div class="region-item">
                                         <p class="region-item_title">上海一</p>
-
                                         <p class="region-item_az">可用区：3</p>
-
-
                                     </div>
-
-
                                 </div>
                                 <div class="region-row">
-
-
                                     <div class="region-item">
                                         <p class="region-item_title">上海二</p>
-
                                         <p class="region-item_az">可用区：4</p>
-
-
                                     </div>
-
                                     <div class="region-item">
                                         <p class="region-item_title">广州</p>
-
                                         <p class="region-item_az">可用区：4</p>
-
-
                                     </div>
-
                                     <div class="region-item">
                                         <p class="region-item_title">深圳</p>
-
                                         <p class="region-item_az">可用区：1</p>
-
-
                                     </div>
-
                                     <div class="region-item">
                                         <p class="region-item_title">香港</p>
 
                                         <p class="region-item_az">可用区：2</p>
-
-
                                     </div>
-
-
                                 </div>
                             </div>
                         </div>
@@ -6628,51 +6439,11 @@
         </div>
 
 
-        <script> window.gConfig = window.gConfig || {};
-        window.gConfig.seed = window.gConfig.seed || [];
-        window.gConfig.seed.push({
-            name: '@cloud/pep-home-page', data:
-                {
-                    "packages": {
-                        "@cloud/pep-home-page": {
-                            "path": "./resources/js/modules/1.1.0/",
-                            "version": "1.1.0"
-                        },
-                        "@cloud/element-entrance": {
-                            "path": "./resources/js/modules/1.2.0/",
-                            "version": "1.2.0"
-                        },
-                        "@cloud/lazyload": {"path": "./resources/js/modules/2.0.6/", "version": "2.0.6"},
-                        "@cloud/link-to": {"path": "./resources/js/modules/1.0.11/", "version": "1.0.11"},
-                        "@cloud/parallax-scroll": {
-                            "path": "./resources/js/modules/1.0.2/",
-                            "version": "1.0.2"
-                        },
-                        "@cloud/xtemplate-runtime": {
-                            "path": "//res.hc-cdn.com/cnpm-xtemplate-runtime/1.0.1/",
-                            "version": "1.0.1"
-                        }
-                    },
-                    "modules": {
-                        "@cloud/pep-home-page/m/index": {"requires": ["@cloud/parallax-scroll", "@cloud/lazyload", "@cloud/link-to"]},
-                        "@cloud/pep-home-page/pc/index": {"requires": ["@cloud/parallax-scroll", "@cloud/lazyload", "@cloud/link-to", "@cloud/element-entrance"]}
-                    }
-                }
-        })</script>
-
-        <script src="./resources/js/3rd/polyfill.min.js"></script>
     </div>
 
 </div>
-<link rel="stylesheet" href="./resources/css/insert.css"/>
 <div class="hidden-print">
 
-
-    <link rel="stylesheet"
-          href="./resources/css/clientlib-privacy.3c5bf2b4dfbf1910d584eedff3dbb817.css"
-          type="text/css">
-    <script type="text/javascript"
-            src="./resources/js/clientlib-privacy.d147933a1d74d720cd79f92f7ab72be3.js"></script>
     <!-- 复用activity-float组件的继承特性 -->
     <div style="min-height:160px">
         <div id="footer">
@@ -6847,516 +6618,155 @@
     </div>
 
     <script src="./resources/js/portal-global.js?sttl=202008280900"></script>
-<!--悬浮标注-->
-<!--
-
-            <div class="float-sidebar last" range="https://www.huaweicloud.com/intl/zh-cn/">
-
-                <a bi_name="国际站悬浮广告" class="float-bar-ad" id="activity_spring"
-                   href="https://activity.huaweicloud.com/intl/zh-cn/828_promotion/index.html?ggw_hd" target="_blank"
-                   style="background-image: url(https://www.huaweicloud.com/content/dam/cloudbu-site/archive/hk/en-us/home/images/index/float-zh.jpg);width: 48px;height: 135px;">
-                </a>
-                <div class="span shown-btn">
-                    <span class="dot"></span>
-                </div>
-
-
-                <ul class="float-bar-nav">
-
-
-                    <li class="item tel"><span class="icons-float-bar f1"></span>
-                        <p><a style="transform: rotate(0);white-space: normal;"
-                              href="https://www.huaweicloud.com/intl/zh-cn/contact-sales.html" target="_blank">
-                            联系销售
-                        </a>
-                        </p>
-                        <div class="sub-nav-layer">
-                        </div>
-                        <style>
-                            @media (min-width: 1024px) {
-                                .float-bar-nav > .item.tel {
-                                    height: 150px;
-                                }
-                            }
-                        </style>
-                    </li>
-
-                    <li class="item to-top-btn"><a
-                            href="https://www.huaweicloud.com/intl/en-us/common/float-dialog-page-hk.html?705#toTop"><span
-                            class="icons-float-bar to-top"></span></a></li>
-                </ul>
-                <style>
-                    .float-bar-nav > .item.tel > p > a {
-                        white-space: nowrap;
-                        transform: rotate(270deg);
-                        transform-origin: 59px 53px;
-                    }
-
-                    @media (min-width: 1024px) {
-                        .float-bar-nav > .item.tel {
-                            height: 150px;
-                        }
-
-                        [site='hk'] #header.top-ad-height {
-                            height: 170px;
-                        }
-
-                        .header-search-droplist.show + .header-search-droplist-mask {
-                            top: 130px
-                        }
-                    }
-
-
-                    [site='hk'] .prompt-content.header-top-ad {
-                        width: 100%;
-                        height: 70px;
-                    }
-
-                    [site='hk'] #prompt-content + .header-top-ad {
-                        display: none;
-                    }
-
-                    #prompt-content + .header-top-ad {
-                        display: none;
-                    }
-
-                    .headercontainr-hk > #header.top-ad-height {
-                        height: 170px;
-                    }
-
-                    #header.top-ad-height {
-                        height: 170px;
-                    }
-
-                    .header-top-ad {
-                        display: flex;
-                        height: 70px;
-                        position: relative;
-                        width: 100%;
-                        justify-content: center;
-                        overflow: hidden;
-                    }
-
-                    .header-top-ad img {
-                        width: auto;
-                        height: 100%;
-                        margin: 0 auto;
-                        position: absolute;
-                        left: 50%;
-                        transform: translate(-50%, 0);
-                        max-width: inherit;
-                    }
-
-                    .header-top-ad .img1 {
-                        display: block;
-                    }
-
-                    .header-top-ad .img2, .img3 {
-                        display: none;
-                    }
-
-                    body.showPrompt {
-                        overflow-x: hidden;
-                    }
-
-                    #header.showPrompt.top-ad-height {
-                        height: 170px;
-                    }
-
-                    @media (max-width: 1440px) {
-                        .header-top-ad .img2 {
-                            display: block;
-                        }
-
-                        .header-top-ad .img1, .img3 {
-                            display: none;
-                        }
-                    }
-
-                    @media (max-width: 1280px) {
-                        .header-top-ad .img3 {
-                            display: block;
-                        }
-
-                        .header-top-ad .img1, .img2 {
-                            display: none;
-                        }
-                    }
-
-                    @media (max-width: 1023px) {
-                        #header.header-top-ad img {
-                            display: none;
-                        }
-
-                        [site='hk'] body #header.top-ad-height {
-                            height: 100px;
-                        }
-
-                        [site='hk'] body #header .header-top-ad {
-                            display: none;
-                        }
-                    }
-
-                    @media (max-width: 768px) {
-                        #header.top-ad-height .header-mbnav {
-                            top: 48px;
-                        }
-
-                        [site='hk'] body #header.top-ad-height {
-                            height: 48px;
-                        }
-
-                        [site='hk'] .showPrompt .header-top .header-main .header-tools .header-tools-list .header-user .header-user-info, [site='hk'] .showPrompt .header-top .header-main .header-tools .header-tools-list .header-user .header-user-info {
-                            width: 100%;
-                        }
-                    }
-
-                    @media (max-width: 767px) {
-                        #header.header-top-ad img {
-                            display: none;
-                        }
-
-                        #header .header-top-ad {
-                            display: none;
-                        }
-
-                        body #header.showPrompt.top-ad-height {
-                            height: 48px;
-                        }
-
-                        [site='hk'] body #header.top-ad-height {
-                            height: 48px;
-                        }
-
-                        [site='hk'] body #header .header-top-ad {
-                            display: none;
-                        }
-                    }
-
-                    .header-top-ad i {
-                        position: absolute;
-                        top: 14px;
-                        left: calc(50% + 607px);
-                        top: 50%;
-                        transform: translate(0, -50%);
-                        width: 23px;
-                        height: 23px;
-                        cursor: pointer;
-                        opacity: .6;
-                    }
-
-                    @media (max-width: 1440px) {
-                        .header-top-ad i {
-                            left: calc(50% + 566px);
-                        }
-                    }
-
-                    @media (max-width: 1280px) {
-                        .header-top-ad i {
-                            left: auto;
-                            right: 40px;
-                        }
-                    }
-
-                    .header-top-ad i:before, .header-top-ad i:after {
-                        content: "";
-                        position: absolute;
-                        top: 15px;
-                        left: 50%;
-                        height: 2px;
-                        width: 23px;
-                        border-radius: 1px;
-                        margin-left: -10px;
-                        background-color: #252b3a;
-                    }
-
-                    .header-top-ad i:before {
-                        transform: rotate(45deg);
-                    }
-
-                    .header-top-ad i:after {
-                        transform: rotate(-45deg);
-                    }
-
-                    .header-top-ad i:hover {
-                        opacity: 1;
-                    }
-
-                    .header-top-ad i {
-                        display: block;
-                    }
-                </style>
-            </div>
-
--->
-    <!-- include common js -->
-
     <script src="./resources/js/index.min.js?sttl=201903209"></script>
-
-
-    <script type="text/javascript">
-        $(".float-sidebar:not(.last)").each(function (index) {
-            $(this).children(".float-bar-nav").children(".item").insertBefore($(".float-sidebar.last .float-bar-nav").children(".item").eq(0));
-            $(this).remove();
-        });
-        var robot = {};
-        robot.staticURL = '//static-intl.huaweicloud.com';
-        robot.portalURL = 'https://portal-intl.huaweicloud.com';
-    </script>
-
-    <script type="text/javascript">
-        var videoDomain = '//video-intl.huaweicloud.com';
-        var staticDomain = '//static-intl.huaweicloud.com';
-        var _videoProtocol = (("https:" == document.location.protocol) ? "https:" : "http:");
-
-        function play(video_url, video_desc, domain) {
-            var reg = RegExp(/bbs/);
-            var tmp = video_url;
-            if (!video_url.match(reg)) {
-                if (domain) {
-                    var tmp = _videoProtocol + domain + video_url;
-                } else {
-                    var tmp = _videoProtocol + videoDomain + video_url;
-                }
-            }
-            tmp = tmp.replace(/m3u8/, 'mp4');
-            tmp = tmp.replace(/bbs\.huaweicloud\.com/, 'bbs-video.huaweicloud.com');
-
-            //ga('send','event','video','click',video_desc);
-
-            var ua = navigator && navigator.userAgent;
-            if ((window.applicationCache) || ua.toLowerCase().indexOf('android') > -1 || (/iPad/i).test(ua) || (/iPhone/i).test(ua)) {
-                var win_width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-                var obj = "#videoplayer";
-                if (win_width < 700) {
-                    $("#videoContainer").width(win_width).height(win_width * 3 / 4);
-                    $(obj).width(win_width).height(win_width * 3 / 4);
-                }
-                var h = $(obj).height();
-                var w = $(obj).width();
-
-                $(obj).append('<video src="' + tmp + '"  height="' + h + '" width="' + w + '" autoplay="autoplay" controls="controls"></video>');
-            } else {
-                var parameters = {
-                    src: tmp,
-                    autoPlay: "true",
-                    verbose: true,
-                    controlBarAutoHide: "true",
-                    controlBarPosition: "bottom",
-                    hls_minbufferlength: -1,
-                    hls_maxbufferlength: 10,
-                    hls_lowbufferlength: 3,
-                    hls_seekmode: "KEYFRAME",
-                    hls_startfromlevel: -1,
-                    hls_seekfromlevel: -1,
-                    hls_live_flushurlcache: false,
-                    hls_info: false,
-                    hls_debug: false,
-                    hls_debug2: false,
-                    hls_warn: false,
-                    hls_error: false,
-                    hls_fragmentloadmaxretry: -1,
-                    hls_manifestloadmaxretry: -1,
-                    hls_capleveltostage: false,
-                    hls_maxlevelcappingmode: "downscale"
-                };
-                swfobject.embedSWF(
-                    _videoProtocol + staticDomain + "/static/swf/StrobeMediaPlayback.swf"
-                    , "videoplayer"
-                    , 700
-                    , 500
-                    , "10.1.0"
-                    , "expressInstall.swf"
-                    , parameters
-                    , {
-                        allowFullScreen: "true"
-                    }
-                );
-            }
-
-
-            var userAgent = navigator.userAgent;
-            var isOpera = userAgent.indexOf("Opera") > -1;
-            /*if (userAgent.indexOf("Firefox") > -1) {
-            $("#videoplayer").css("padding-top","30px");
-            $("#videoContainer").css("height","470px");
-        }
-        if (!!window.ActiveXObject || "ActiveXObject" in window){
-            $("#videoplayer").css("padding-top","30px");
-        }*/
-            var height = document.body.offsetHeight;
-            $("#videobg").css("width", $(window).width());
-            $("#videobg").css("height", height);
-            $("#videobg").css("top", -height);
-            $("#videobg").css("left", "0px");
-            $("#videoplayerDiv").css("left", ($(window).width() - $("#videoplayer").width()) / 2);
-            $("#videoplayerDiv").css("top", (($(window).height() - $("#videoplayer").height()) / 2 + $(window).scrollTop()) - height);
-            $("#videoDiv").show();
-        }
-
-        function closeVideo() {
-            if (!!window.ActiveXObject || "ActiveXObject" in window) {
-                $("#videoplayer").remove();
-                $("#closeBtn").append('<div id="videoplayer" style="height:500px;width:700px;">');
-
-            } else {
-                $("#videoplayer").html("");
-            }
-            $("#videoDiv").hide();
-        }
-    </script>
 </div>
 
 
+<link rel="stylesheet" href="./resources/css/insert.css"/>
+<link rel="stylesheet" href="./resources/css/clientlib-privacy.3c5bf2b4dfbf1910d584eedff3dbb817.css"/>
+<link rel="stylesheet" href="./resources/css/clientlib-prompt.a8e52fa926de01c042417aa68bf51ba3.css"/>
+
+<script>
+    window.gConfig = window.gConfig || {};
+    window.gConfig.seed = window.gConfig.seed || [];
+    window.gConfig.seed.push({
+        name: '@cloud/pep-home-page', data:
+            {
+                "packages": {
+                    "@cloud/pep-home-page": {
+                        "path": "./resources/js/modules/1.1.0/",
+                        "version": "1.1.0"
+                    },
+                    "@cloud/element-entrance": {
+                        "path": "./resources/js/modules/1.2.0/",
+                        "version": "1.2.0"
+                    },
+                    "@cloud/lazyload": {"path": "./resources/js/modules/2.0.6/", "version": "2.0.6"},
+                    "@cloud/link-to": {"path": "./resources/js/modules/1.0.11/", "version": "1.0.11"},
+                    "@cloud/parallax-scroll": {
+                        "path": "./resources/js/modules/1.0.2/",
+                        "version": "1.0.2"
+                    },
+                    "@cloud/xtemplate-runtime": {
+                        "path": "//res.hc-cdn.com/cnpm-xtemplate-runtime/1.0.1/",
+                        "version": "1.0.1"
+                    }
+                },
+                "modules": {
+                    "@cloud/pep-home-page/m/index": {"requires": ["@cloud/parallax-scroll", "@cloud/lazyload", "@cloud/link-to"]},
+                    "@cloud/pep-home-page/pc/index": {"requires": ["@cloud/parallax-scroll", "@cloud/lazyload", "@cloud/link-to", "@cloud/element-entrance"]}
+                }
+            }
+    })
+</script>
+<script src="./resources/js/3rd/polyfill.min.js"></script>
+
+<script type="text/javascript"
+        src="./resources/js/clientlib-privacy.d147933a1d74d720cd79f92f7ab72be3.js"></script>
+
 <script src="./resources/js/3rd/swiper-3.4.2.jquery.min.js"></script>
-
-
 <script src="./resources/js/3rd/swiper-3.4.2.jquery.min.after.js?sttl=202008280900"></script>
 <script src="./resources/js/3rd/dcSlideShow.js?sttl=202008280900"></script>
 <script src="./resources/js/index.js?sttl=202008280900"></script>
-
-
 <script src="./resources/js/bi_new.js?sttl=202008280900"></script>
 <script src="./resources/js/appCustom.js?sttl=202008280900"></script>
-
 <script src="./resources/js/LinkTo.umd.js?sttl=202008280900"></script>
 <script src="./resources/js/3rd/index.js?sttl=202008280900"></script>
 <script src="./resources/js/3rd/Login.umd.js"></script>
-
-
 <script type="text/javascript" src="./resources/js/3rd/feloader.js"></script>
-
-
 <div class="hide-sttl" style="height: 0;width:0" data-sttl="202008280900"></div>
-<script>
-    window.sttlVersion = $('.hide-sttl').attr('data-sttl') || '2020';
-</script>
-
-
-<script>
-    $('body').addClass('header-white');
-</script>
-
-<script>
-    window.matedataDomain = "www";
-
-    // if open in app, should change ts_domain in to "app"
-    if (/pcloudApp/i.test(navigator.userAgent)) {
-        window.matedataDomain = "app";
-    } else {
-        var str = window.location.search;
-        var suband = "type=android";
-        var subios = "type=ios";
-        if (str.indexOf(subios) != -1 || str.indexOf(suband) != -1) {
-            window.matedataDomain = "app";
-        }
-    }
-
-    window.pageMatedataPrefix = window.matedataDomain + "_hk_zh-cn_index.click.";
-    window.headerMatedataPrefix = window.matedataDomain + "_hk_zh-cn_index_navigation.click.";
-    window.footerMatedataPrefix = window.matedataDomain + "_hk_zh-cn_index_footer.click.";
-    window.registerMatedataPrefix = window.matedataDomain + "_hk_zh-cn_index_register.click.";
-    window.serviceMatedataPrefix = window.matedataDomain + "_hk_zh-cn_index_service.click.";
-    window.pep_uaid = "UA-55836286-39";
-    window.mate_data_ts_pageType = "index";
-
-</script>
-
-
-<script>
-    function showFooter() {
-        if (window.matedataDomain != "app") {
-            $("#footer .footer-nav").css('display', 'block');
-            $("#footer .footer-copyright-container").css('display', 'block');
-            $(".footer-service .footer-wrapper").css('display', 'block');
-            $("#footer #videoDiv").css('display', 'none');
-        }
-    }
-
-    if (window.feloader) {
-        feloader.onLoad(function () {
-            feloader.getScript('./resources/css/modules/product-icons.css');
-            feloader.getScript('./resources/css/modules/iconFont-solution.css');
-            feloader.getScript('./resources/js/modules/gray.js?sttl=' + window.sttlVersion);
-            showFooter()
-        })
-    } else {
-        document.write("<script src='./resources/js/modules/gray.js'><\/script>");
-        document.write("<link rel='stylesheet' href='./resources/css/modules/product-icons.css'>");
-        document.write("<link rel='stylesheet' href='./resources/css/modules/iconFont-solution.css'>");
-        showFooter();
-    }
-
-</script>
-
-
+<script>window.sttlVersion = $('.hide-sttl').attr('data-sttl') || '2020';</script>
 <script src="./resources/js/portal-common.min.js?sttl=202008280900"></script>
+<script type="text/javascript">
+    $(".float-sidebar:not(.last)").each(function (index) {
+        $(this).children(".float-bar-nav").children(".item").insertBefore($(".float-sidebar.last .float-bar-nav").children(".item").eq(0));
+        $(this).remove();
+    });
+    var robot = {};
+    robot.staticURL = '//static-intl.huaweicloud.com';
+    robot.portalURL = 'https://portal-intl.huaweicloud.com';
 
-<script>
-    // document.referrer可以获取浏览器上一次地址，如果document.referrer是空字符串，则不为语言切换场景
-    window.refLan = "";
-    window.$PEP = true;
+    $('body').addClass('header-white');
+    var videoDomain = '//video-intl.huaweicloud.com';
+    var staticDomain = '//static-intl.huaweicloud.com';
+    var _videoProtocol = (("https:" == document.location.protocol) ? "https:" : "http:");
 
-    function getSiteFromURL() {
-        url = window.location.host;
-        urlArr = url.split(".");
-        if (urlArr[0] == "www") {
-            reg = "CN";
-        } else {
-            reg = "HK"
-        }
-        return reg;
-    }
-
-    if ($('html').attr("site")) {
-        window.reg = $('html').attr("site") == "china" ? "CN" : "HK";
-    } else {
-        window.reg = getSiteFromURL();
-    }
-
-    window.promptLan = $('html').attr("lang");
-
-    if (document.referrer != "") {
-        if (document.referrer.indexOf("/authui/login") == -1) {
-            if (document.referrer.indexOf(".com/intl") != -1) {
-                window.refLan = (document.referrer.indexOf(".com/intl/zh-cn") != -1) ? "zh-CN" : ((document.referrer.indexOf(".com/intl/en-us") != -1) ? "en-US" : "es-US");
+    function play(video_url, video_desc, domain) {
+        var reg = RegExp(/bbs/);
+        var tmp = video_url;
+        if (!video_url.match(reg)) {
+            if (domain) {
+                var tmp = _videoProtocol + domain + video_url;
             } else {
-                window.refLan = (document.referrer.indexOf(".com/en-us") != -1) ? "en-US" : "zh-CN";
-            }
-        } else {
-            //window.refLan = (document.referrer.indexOf("locale=zh-cn") != -1) ? "zh-CN" : "en-US";
-            if (document.referrer.indexOf("locale=") != -1) {
-                window.refLan = (document.referrer.indexOf("locale=zh-cn") != -1) ? "zh-CN" : ((document.referrer.indexOf("locale=en-us") != -1) ? "en-US" : "es-US");
-            } else {
-                window.refLan = window.promptLan;
+                var tmp = _videoProtocol + videoDomain + video_url;
             }
         }
-    } else {
-        window.refLan = window.promptLan;
+        tmp = tmp.replace(/m3u8/, 'mp4');
+        tmp = tmp.replace(/bbs\.huaweicloud\.com/, 'bbs-video.huaweicloud.com');
+
+        //ga('send','event','video','click',video_desc);
+
+        var ua = navigator && navigator.userAgent;
+        if ((window.applicationCache) || ua.toLowerCase().indexOf('android') > -1 || (/iPad/i).test(ua) || (/iPhone/i).test(ua)) {
+            var win_width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+            var obj = "#videoplayer";
+            if (win_width < 700) {
+                $("#videoContainer").width(win_width).height(win_width * 3 / 4);
+                $(obj).width(win_width).height(win_width * 3 / 4);
+            }
+            var h = $(obj).height();
+            var w = $(obj).width();
+
+            $(obj).append('<video src="' + tmp + '"  height="' + h + '" width="' + w + '" autoplay="autoplay" controls="controls"></video>');
+        } else {
+            var parameters = {
+                src: tmp,
+                autoPlay: "true",
+                verbose: true,
+                controlBarAutoHide: "true",
+                controlBarPosition: "bottom",
+                hls_minbufferlength: -1,
+                hls_maxbufferlength: 10,
+                hls_lowbufferlength: 3,
+                hls_seekmode: "KEYFRAME",
+                hls_startfromlevel: -1,
+                hls_seekfromlevel: -1,
+                hls_live_flushurlcache: false,
+                hls_info: false,
+                hls_debug: false,
+                hls_debug2: false,
+                hls_warn: false,
+                hls_error: false,
+                hls_fragmentloadmaxretry: -1,
+                hls_manifestloadmaxretry: -1,
+                hls_capleveltostage: false,
+                hls_maxlevelcappingmode: "downscale"
+            };
+            swfobject.embedSWF(
+                _videoProtocol + staticDomain + "/static/swf/StrobeMediaPlayback.swf"
+                , "videoplayer"
+                , 700
+                , 500
+                , "10.1.0"
+                , "expressInstall.swf"
+                , parameters
+                , {
+                    allowFullScreen: "true"
+                }
+            );
+        }
+
+        var userAgent = navigator.userAgent;
+        var isOpera = userAgent.indexOf("Opera") > -1;
+        var height = document.body.offsetHeight;
+        $("#videobg").css("width", $(window).width());
+        $("#videobg").css("height", height);
+        $("#videobg").css("top", -height);
+        $("#videobg").css("left", "0px");
+        $("#videoplayerDiv").css("left", ($(window).width() - $("#videoplayer").width()) / 2);
+        $("#videoplayerDiv").css("top", (($(window).height() - $("#videoplayer").height()) / 2 + $(window).scrollTop()) - height);
+        $("#videoDiv").show();
     }
 </script>
-<link rel="stylesheet" href="./resources/css/clientlib-prompt.a8e52fa926de01c042417aa68bf51ba3.css" type="text/css">
-<script type="text/javascript" src="./resources/js/clientlib-prompt.80f883d5529fcec41ba11aa6d38633b7.js"></script>
-<script>
-    var currentPathName = window.location.pathname;
-    var currentSite = $('html').attr("site");
-    if (currentSite == "hk") {
-        currentPathName = currentPathName.replace("/intl/", "/");
-        if (currentPathName == "/") {
-            window.$urlLanguage = "en-us";
-        } else {
-            var tempArray = currentPathName.split("/");
-            (tempArray.length > 1) && (window.$urlLanguage = tempArray[1]);
-        }
-    } else {
-        if (currentPathName == "/") {
-            window.$urlLanguage = "zh-cn";
-        } else {
-            var tempArray = currentPathName.split("/");
-            (tempArray.length > 1) && (window.$urlLanguage = tempArray[1]);
-        }
-    }
-</script>
-<!--<script src="./resources/js/wise_trace.min.js?sttl=202008280900"></script>-->
 </body>
 </html>
