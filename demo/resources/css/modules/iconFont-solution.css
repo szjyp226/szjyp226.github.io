@@ -1,0 +1,377 @@
+@font-face {
+	font-family: 'iconFont-solution';
+	src: url(../fonts/iconFont-solution/iconFont-solution.eot?1558406045936);
+	src: url(../fonts/iconFont-solution/iconFont-solution.eot?1558406045936#iefix) format('embedded-opentype'),
+	url(../fonts/iconFont-solution/iconFont-solution.woff2?1558406045936) format('woff2'),
+	url(../fonts/iconFont-solution/iconFont-solution.woff?1558406045936) format('woff'),
+	url(../fonts/iconFont-solution/iconFont-solution.ttf?1558406045936) format('truetype'),
+	url(../fonts/iconFont-solution/iconFont-solution.svg?1558406045936) format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.icons-solution {
+	font-family: 'iconFont-solution' !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	display: inline-block;
+	font-size: 48px;
+  	color: #333;
+}
+
+
+.icons-solution.apm:before {
+	content: "\ea39"
+}
+
+.icons-solution.apos:before {
+	content: "\ea57"
+}
+
+.icons-solution.ar:before {
+	content: "\ea26"
+}
+
+.icons-solution.AttackPrevention:before {
+	content: "\ea25"
+}
+
+.icons-solution.backup:before {
+	content: "\ea02"
+}
+
+.icons-solution.bio:before {
+	content: "\ea03"
+}
+
+.icons-solution.businesscloud:before {
+	content: "\ea04"
+}
+
+.icons-solution.businessclouddelivery:before {
+	content: "\ea27"
+}
+
+.icons-solution.businesssecurity:before {
+	content: "\ea18"
+}
+
+.icons-solution.cadaas:before {
+	content: "\ea05"
+}
+
+.icons-solution.caeaas:before {
+	content: "\ea06"
+}
+
+.icons-solution.ces:before {
+	content: "\ea3a"
+}
+
+.icons-solution.clothing:before {
+	content: "\ea07"
+}
+
+.icons-solution.CloudBox:before {
+	content: "\ea01"
+}
+
+.icons-solution.cloudoffice:before {
+	content: "\ea08"
+}
+
+.icons-solution.cloudsecurity:before {
+	content: "\ea09"
+}
+
+.icons-solution.connectedcar:before {
+	content: "\ea28"
+}
+
+.icons-solution.crossborder:before {
+	content: "\ea0a"
+}
+
+.icons-solution.dualrecord:before {
+	content: "\ea29"
+}
+
+.icons-solution.ecomfunction:before {
+	content: "\ea3b"
+}
+
+.icons-solution.education:before {
+	content: "\ea4d"
+}
+
+.icons-solution.electrictrade:before {
+	content: "\ea40"
+}
+
+.icons-solution.energy:before {
+	content: "\ea4e"
+}
+
+.icons-solution.EnergySystemsIntegration:before {
+	content: "\ea3e"
+}
+
+.icons-solution.finance:before {
+	content: "\ea4f"
+}
+
+.icons-solution.financecloud:before {
+	content: "\ea0c"
+}
+
+.icons-solution.Financesecurity:before {
+	content: "\ea51"
+}
+
+.icons-solution.financialdec:before {
+	content: "\ea4b"
+}
+
+.icons-solution.fleetmanagement:before {
+	content: "\ea44"
+}
+
+.icons-solution.fusionplant:before {
+	content: "\ea4c"
+}
+
+.icons-solution.FusionSolarCloud:before {
+	content: "\ea47"
+}
+
+.icons-solution.gamecloud:before {
+	content: "\ea0d"
+}
+
+.icons-solution.gamecontainer:before {
+	content: "\ea48"
+}
+
+.icons-solution.gamedev:before {
+	content: "\ea0e"
+}
+
+.icons-solution.gamehosting:before {
+	content: "\ea0f"
+}
+
+.icons-solution.gamesecurity:before {
+	content: "\ea10"
+}
+
+.icons-solution.government:before {
+	content: "\ea33"
+}
+
+.icons-solution.gradedprotection:before {
+	content: "\ea11"
+}
+
+.icons-solution.hcdr:before {
+	content: "\ea54"
+}
+
+.icons-solution.healthcare:before {
+	content: "\ea50"
+}
+
+.icons-solution.highperformance:before {
+	content: "\ea12"
+}
+
+.icons-solution.house:before {
+	content: "\ea13"
+}
+
+.icons-solution.imagediagnostic:before {
+	content: "\ea37"
+}
+
+.icons-solution.imagestorage:before {
+	content: "\ea2a"
+}
+
+.icons-solution.insurance:before {
+	content: "\ea14"
+}
+
+.icons-solution.iot:before {
+	content: "\ea15"
+}
+
+.icons-solution.ipv6:before {
+	content: "\ea56"
+}
+
+.icons-solution.ivs:before {
+	content: "\ea43"
+}
+
+.icons-solution.log_analysis:before {
+	content: "\ea3f"
+}
+
+.icons-solution.logistics:before {
+	content: "\ea34"
+}
+
+.icons-solution.manufacturing:before {
+	content: "\ea16"
+}
+
+.icons-solution.mediaintegration:before {
+	content: "\ea17"
+}
+
+.icons-solution.mesaas:before {
+	content: "\ea2b"
+}
+
+.icons-solution.metering:before {
+	content: "\ea2c"
+}
+
+.icons-solution.microsoft:before {
+	content: "\ea3d"
+}
+
+.icons-solution.migrationcloud:before {
+	content: "\ea1a"
+}
+
+.icons-solution.mmtc:before {
+	content: "\ea2d"
+}
+
+.icons-solution.nev:before {
+	content: "\ea19"
+}
+
+.icons-solution.odbm:before {
+	content: "\ea1b"
+}
+
+.icons-solution.Onlinevideo:before {
+	content: "\ea0b"
+}
+
+.icons-solution.parking:before {
+	content: "\ea49"
+}
+
+.icons-solution.pay:before {
+	content: "\ea2e"
+}
+
+.icons-solution.pdm:before {
+	content: "\ea2f"
+}
+
+.icons-solution.pmservice:before {
+	content: "\ea30"
+}
+
+.icons-solution.privatecloud:before {
+	content: "\ea1c"
+}
+
+.icons-solution.quotations:before {
+	content: "\ea1d"
+}
+
+.icons-solution.recommend:before {
+	content: "\ea32"
+}
+
+.icons-solution.rendering:before {
+	content: "\ea52"
+}
+
+.icons-solution.retail:before {
+	content: "\ea1e"
+}
+
+.icons-solution.roma:before {
+	content: "\ea53"
+}
+
+.icons-solution.sap:before {
+	content: "\ea1f"
+}
+
+.icons-solution.sapsecurity:before {
+	content: "\ea41"
+}
+
+.icons-solution.science:before {
+	content: "\ea20"
+}
+
+.icons-solution.sfcs:before {
+	content: "\ea21"
+}
+
+.icons-solution.smallloan:before {
+	content: "\ea35"
+}
+
+.icons-solution.smartcampus:before {
+	content: "\ea55"
+}
+
+.icons-solution.smartcharging:before {
+	content: "\ea42"
+}
+
+.icons-solution.softedu:before {
+	content: "\ea22"
+}
+
+.icons-solution.supplychanin:before {
+	content: "\ea36"
+}
+
+.icons-solution.tbox:before {
+	content: "\ea45"
+}
+
+.icons-solution.telecom:before {
+	content: "\ea4a"
+}
+
+.icons-solution.telehealth:before {
+	content: "\ea38"
+}
+
+.icons-solution.ubi:before {
+	content: "\ea46"
+}
+
+.icons-solution.videoeducation:before {
+	content: "\ea23"
+}
+
+.icons-solution.videosurveillance:before {
+	content: "\ea31"
+}
+
+.icons-solution.webmobile:before {
+	content: "\ea24"
+}
+
+.icons-solution.xconnect:before {
+	content: "\ea3c"
+}

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="09c09104-75d8-45bf-b5cd-9e10278cdcf1" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1gijf3CEJgQ4bHugFb1Nfl7dMNw" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/Yarn/bin/node-sass" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\work\about_huawei\resources\fonts\iconFont-cui" />
+      <recent name="D:\Projects\work\about_huawei\resources\js\modules\1.1.0\pc" />
+      <recent name="D:\Projects\work\about_huawei\resources\fonts\Helvetica" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\work\about_huawei\resources\fonts\iconFont-cui" />
+      <recent name="D:\Projects\work\about_huawei\resources\fonts" />
+      <recent name="D:\Projects\work\about_huawei\resources\fonts\Helvetica" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="支持计划特惠-华为云.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/about_huawei/支持计划特惠-华为云.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="floatpage-HUAWEI CLOUD.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/about_huawei/resources/contents/html/floatpage-HUAWEI CLOUD.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/about_huawei/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.floatpage-HUAWEI CLOUD.html" />
+        <item itemvalue="JavaScript Debug.支持计划特惠-华为云.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="09c09104-75d8-45bf-b5cd-9e10278cdcf1" name="Default Changelist" comment="" />
+      <created>1598604406262</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598604406262</updated>
+      <workItem from="1598604407343" duration="12214000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1094" y="547" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1598614806931">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1094" y="547" key="#com.intellij.ide.macro.MacrosDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1598614806931" />
+    <state x="970" y="618" key="EditFileWatcherDialog" timestamp="1598614816190">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="970" y="618" key="EditFileWatcherDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1598614816190" />
+    <state x="1094" y="597" key="FileChooserDialogImpl" timestamp="1598614767842">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1094" y="597" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1598614767842" />
+    <state width="1895" height="269" key="GridCell.Tab.0.bottom" timestamp="1598614775563">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1895" height="269" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1598614775563" />
+    <state width="1895" height="269" key="GridCell.Tab.0.center" timestamp="1598614775563">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1895" height="269" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1598614775563" />
+    <state width="1895" height="269" key="GridCell.Tab.0.left" timestamp="1598614775563">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1895" height="269" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1598614775563" />
+    <state width="1895" height="269" key="GridCell.Tab.0.right" timestamp="1598614775563">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1895" height="269" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1598614775563" />
+    <state width="1895" height="269" key="GridCell.Tab.1.bottom" timestamp="1598614775563">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1895" height="269" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1598614775563" />
+    <state width="1895" height="269" key="GridCell.Tab.1.center" timestamp="1598614775563">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1895" height="269" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1598614775563" />
+    <state width="1895" height="269" key="GridCell.Tab.1.left" timestamp="1598614775563">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1895" height="269" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1598614775563" />
+    <state width="1895" height="269" key="GridCell.Tab.1.right" timestamp="1598614775563">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1895" height="269" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1598614775563" />
+    <state x="1164" y="432" key="SettingsEditor" timestamp="1598614817414">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1164" y="432" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1598614817414" />
+    <state x="892" y="455" width="725" height="536" key="find.popup" timestamp="1598615110969">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="892" y="455" width="725" height="536" key="find.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1598615110969" />
+  </component>
+</project>
