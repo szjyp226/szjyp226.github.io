@@ -22,12 +22,16 @@
       <recent name="D:\Projects\work\三个页面\ourServices" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
+    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ourServices/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ourServices/fletrix.com.hk/our-services-web-system-development/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
@@ -41,7 +45,8 @@
       <option name="presentableId" value="Default" />
       <updated>1606974528007</updated>
       <workItem from="1606974529037" duration="2840000" />
-      <workItem from="1607126838847" duration="1347000" />
+      <workItem from="1607126838847" duration="2012000" />
+      <workItem from="1607135851503" duration="421000" />
     </task>
     <servers />
   </component>
@@ -53,9 +58,9 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1284" y="527" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1607134475236" />
-    <state x="1206" y="370" width="787" height="804" key="find.popup" timestamp="1607134673536">
+    <state x="1206" y="370" width="787" height="804" key="find.popup" timestamp="1607136257201">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1206" y="370" width="787" height="804" key="find.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1607134673536" />
+    <state x="1206" y="370" width="787" height="804" key="find.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1607136257201" />
   </component>
 </project>

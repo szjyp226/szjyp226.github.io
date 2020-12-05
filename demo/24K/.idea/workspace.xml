@@ -32,8 +32,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.24k">
+  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
     <configuration name="24k" type="JavascriptDebugType" temporary="true" uri="http://localhost:63342/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/24K/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/index.html" useBuiltInWebServerPort="true">
@@ -55,6 +58,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.24k" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.index.html" />
@@ -71,7 +75,7 @@
       <updated>1606971965914</updated>
       <workItem from="1606971967055" duration="2540000" />
       <workItem from="1606974930900" duration="1347000" />
-      <workItem from="1607126838594" duration="1314000" />
+      <workItem from="1607126838594" duration="2176000" />
     </task>
     <servers />
   </component>
@@ -91,17 +95,17 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="958" y="426" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1606974260661" />
-    <state x="1284" y="526" key="FileChooserDialogImpl" timestamp="1606974520629">
+    <state x="1284" y="526" key="FileChooserDialogImpl" timestamp="1607135848533">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1284" y="526" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1606974520629" />
+    <state x="1284" y="526" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1607135848533" />
     <state x="781" y="344" key="SettingsEditor" timestamp="1606973862743">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="781" y="344" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1606973862743" />
-    <state x="1206" y="504" width="596" height="536" key="find.popup" timestamp="1607126976839">
+    <state x="1206" y="504" width="596" height="536" key="find.popup" timestamp="1607135914259">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1206" y="504" width="596" height="536" key="find.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1607126976839" />
+    <state x="1206" y="504" width="596" height="536" key="find.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1607135914259" />
   </component>
 </project>
