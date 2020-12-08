@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="72ea5ce7-ac7a-4208-a611-bd0049891375" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1l8Hna27WeV52deCM0oZyLtwcjb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.buildTools.grunt.grunt-cli.package" value="" />
+    <property name="js.buildTools.gulp.gulp_package_dir" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ourServices" />
+    <property name="nodejs.cucumber.cucumber_node_package_dir" value="" />
+    <property name="nodejs.mocha.mocha_node_package_dir" value="" />
+    <property name="nodejs.protractor.protractor_package" value="" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
+    <configuration name="24k" type="JavascriptDebugType" temporary="true" uri="http://localhost:63342/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/24K/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.grunt">
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html (1)" />
+        <item itemvalue="JavaScript Debug.24k" />
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="72ea5ce7-ac7a-4208-a611-bd0049891375" name="Default Changelist" comment="" />
+      <created>1606971965914</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606971965914</updated>
+      <workItem from="1606971967055" duration="2540000" />
+      <workItem from="1606974930900" duration="1347000" />
+      <workItem from="1607126838594" duration="2176000" />
+      <workItem from="1607308400899" duration="4117000" />
+      <workItem from="1607419510274" duration="2680000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1071" y="587" key="#Chrome_Settings" timestamp="1606973861662">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1071" y="587" key="#Chrome_Settings/0.0.2560.1400@0.0.2560.1400" timestamp="1606973861662" />
+    <state x="1292" y="557" key="#Web_Browsers" timestamp="1606974057653">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1292" y="557" key="#Web_Browsers/0.0.2560.1400@0.0.2560.1400" timestamp="1606974057653" />
+    <state x="958" y="426" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606974260661">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="958" y="426" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1606974260661" />
+    <state x="1284" y="526" key="FileChooserDialogImpl" timestamp="1607135848533">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1284" y="526" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1607135848533" />
+    <state x="781" y="344" key="SettingsEditor" timestamp="1606973862743">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="781" y="344" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1606973862743" />
+    <state x="1206" y="504" width="596" height="536" key="find.popup" timestamp="1607135914259">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1206" y="504" width="596" height="536" key="find.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1607135914259" />
+  </component>
+</project>
