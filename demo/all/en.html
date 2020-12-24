@@ -1,0 +1,1661 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Communication APIs, Contact Center, Business Phone, VoIP | Crab Technology Pte. Ltd.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"/>
+    <meta name="pageTitle" content="Crab Technology Pte. Ltd."/>
+    <meta name="description"
+          content="Crab Technology Pte. Ltd. offers flexible and scalable voice, messaging, video and data capabilities across Unified Communications, Contact Centers and Communications APIs."/>
+    <meta name="pageName" content="Communication APIs, Contact Center, Business Phone, VoIP"/>
+    <meta name="template" content="generic-page-with-leadgen"/>
+    <meta class="swiftype" name="title" data-type="string" content="Crab Technology Pte. Ltd."/>
+    <meta class="swiftype" name="meta_description" data-type="text"
+          content="Crab Technology Pte. Ltd. offers flexible and scalable voice, messaging, video and data capabilities across Unified Communications, Contact Centers and Communications APIs."/>
+    <meta class="swiftype" name="site" data-type="enum" content="Crab Technology Pte. Ltd.-marketing"/>
+    <meta class="swiftype" name="published_at" data-type="date" content="2020-12-15"/>
+    <meta class="swiftype" name="image" data-type="enum"
+          content="/content/dam/site/us-en/resources/iconography/resources_logo.png"/>
+    <meta class="swiftype" name="language" data-type="enum" content="en"/>
+    <meta class="swiftype" name="country" data-type="enum" content="us"/>
+    <link rel="canonical" href="./en.html"/>
+    <link rel="alternate" href="./zh.html" hreflang="zh-cn"/>
+    <meta property="og:url" content="http://crabtechpte.com/"/>
+    <meta property="og:title" content="Crab Technology Pte. Ltd."/>
+    <meta property="og:description"
+          content="Crab Technology Pte. Ltd. offers flexible and scalable voice, messaging, video and data capabilities across Unified Communications, Contact Centers and Communications APIs."/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image"
+          content="/content/dam/site/us-en/resources/iconography/resources_logo.png"/>
+    <meta property="og:image:height" content="500"/>
+    <meta property="og:image:width" content="500"/>
+    <script type="text/javascript"
+            src="//assets.adobedtm.com/aa512cb75f2e3e0ee5f88731d3c730fc32883b03/satelliteLib-5b65567b5ca33f955c1735c794afe16a3e47588d.js"></script>
+    <script type="module">
+        "use strict";
+        !function () {
+            var t = window.driftt = window.drift = window.driftt || [];
+            if (!t.init) {
+                if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+                t.invoked = !0, t.methods = ["identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on"],
+                    t.factory = function (e) {
+                        return function () {
+                            var n = Array.prototype.slice.call(arguments);
+                            return n.unshift(e), t.push(n), t;
+                        };
+                    }, t.methods.forEach(function (e) {
+                        t[e] = t.factory(e);
+                    }
+                ), t.load = function (t) {
+                    var e = 3e5,
+                        n = Math.ceil(new Date() / e) * e,
+                        o = document.createElement("script");
+                    o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+                    var i = document.getElementsByTagName("script")[0];
+                    i.parentNode.insertBefore(o, i);
+                };
+            }
+        }();
+        drift.SNIPPET_VERSION = '0.3.1';
+        drift.load('3i4s3txvbie7');
+    </script>
+    <script type='text/javascript'>
+        var WindowEvent, VisibilityType;
+        (function (n) {
+            n.Load = "load";
+            n.BeforeUnload = "beforeunload";
+            n.Abort = "abort";
+            n.Error = "error";
+            n.Unload = "unload"
+        })(WindowEvent || (WindowEvent = {})), function (n) {
+            n[n.Focus = 0] = "Focus";
+            n[n.Blur = 1] = "Blur"
+        }(VisibilityType || (VisibilityType = {}));
+        var AjaxTiming = function () {
+            function n(n, t, i, r) {
+                var u = this;
+                this.getPerformanceTimings = function (n) {
+                    u.connect = n.connectEnd - n.connectStart;
+                    u.dns = n.domainLookupEnd - n.domainLookupStart;
+                    u.duration = n.duration;
+                    u.load = n.responseEnd - n.responseStart;
+                    u.wait = n.responseStart - n.requestStart;
+                    u.start = n.startTime;
+                    u.redirect = n.redirectEnd - n.redirectStart;
+                    n.secureConnectionStart && (u.ssl = n.connectEnd - n.secureConnectionStart)
+                };
+                this.url = n;
+                this.method = t;
+                this.isAsync = i;
+                this.open = r
+            }
+
+            return n
+        }(), ProfilerJsError = function () {
+            function n(n, t, i) {
+                this.count = 0;
+                this.message = n;
+                this.url = t;
+                this.lineNumber = i
+            }
+
+            return n.createText = function (n, t, i) {
+                return [n, t, i].join(":")
+            }, n.prototype.getText = function () {
+                return n.createText(this.message, this.url, this.lineNumber)
+            }, n
+        }(), ProfilerEventManager = function () {
+            function n() {
+                this.events = [];
+                this.hasAttachEvent = !!window.attachEvent
+            }
+
+            return n.prototype.add = function (n, t, i) {
+                this.events.push({type: n, target: t, func: i});
+                this.hasAttachEvent ? t.attachEvent("on" + n, i) : t.addEventListener(n, i, !1)
+            }, n.prototype.remove = function (n, t, i) {
+                this.hasAttachEvent ? t.detachEvent(n, i) : t.removeEventListener(n, i, !1);
+                var r = this.events.indexOf({type: n, target: t, func: i});
+                r !== 1 && this.events.splice(r, 1)
+            }, n.prototype.clear = function () {
+                for (var t, n = 0, i = this.events; n < i.length; n++) t = i[n], this.remove(t.type, t.target, t.func);
+                this.events = []
+            }, n
+        }(), RProfiler = function () {
+            function n() {
+                function o(n) {
+                    var t = n.target || n.srcElement;
+                    return t.nodeType == 3 && (t = t.parentNode), r("N/A", t.src || t.URL, -1), !1
+                }
+
+                var n = this, r, u, e, t, i, f;
+                this.restUrl = "g.3gl.net/jp/5168/v3.3.1/M";
+                this.startTime = (new Date).getTime();
+                this.eventsTimingHandler = new EventsTimingHandler;
+                this.inputDelay = new InputDelayHandler;
+                this.version = "v3.3.1";
+                this.info = {};
+                this.hasInsight = !1;
+                this.data = {
+                    start: this.startTime,
+                    jsCount: 0,
+                    jsErrors: [],
+                    loadTime: -1,
+                    loadFired: window.document.readyState == "complete",
+                    ajax: []
+                };
+                this.eventManager = new ProfilerEventManager;
+                this.startAjaxCapture = function () {
+                    var i = XMLHttpRequest.prototype, o = i.open, s = i.send, r = [], u = {}, e = n.data.ajax, h = 25,
+                        f = typeof performance == "object" && typeof window.performance.now == "function" && typeof window.performance.getEntriesByType == "function",
+                        t;
+                    f && typeof window.performance.setResourceTimingBufferSize == "function" && window.performance.setResourceTimingBufferSize(300);
+                    t = function () {
+                        return f ? window.performance.now() : (new Date).getTime()
+                    };
+                    i.open = function (n, i, u, f, e) {
+                        u === void 0 && (u = !0);
+                        this.rpIndex = r.length;
+                        r.push(new AjaxTiming(i, n, u, t()));
+                        o.call(this, n, i, u, f, e)
+                    };
+                    i.send = function (n) {
+                        var i = this, c = this.onreadystatechange, o;
+                        (this.onreadystatechange = function (n) {
+                            var o = r[i.rpIndex], l, s;
+                            if (o) {
+                                l = i.readyState;
+                                switch (l) {
+                                    case 1:
+                                        o.connectionEstablished = t();
+                                        break;
+                                    case 2:
+                                        o.requestReceived = t();
+                                        break;
+                                    case 3:
+                                        o.processingTime = t();
+                                        break;
+                                    case 4:
+                                        o.complete = t();
+                                        s = !!(i.response && i.response != null && i.response != undefined);
+                                        switch (i.responseType) {
+                                            case"text":
+                                            case"":
+                                                typeof i.responseText == "string" && (o.responseSize = i.responseText.length);
+                                                break;
+                                            case"json":
+                                                s && typeof i.response.toString == "function" && (o.responseSize = i.response.toString().length);
+                                                break;
+                                            case"arraybuffer":
+                                                s && typeof i.response.byteLength == "number" && (o.responseSize = i.response.byteLength);
+                                                break;
+                                            case"blob":
+                                                s && typeof i.response.size == "number" && (o.responseSize = i.response.size)
+                                        }
+                                        (function (n) {
+                                            setTimeout(function () {
+                                                var r, s, h, c, o;
+                                                if (f) {
+                                                    var i = n.url, t = [], l = performance.getEntriesByType("resource");
+                                                    for (r = 0, s = l; r < s.length; r++) h = s[r], h.name == i && t.push(h);
+                                                    if (e.push(n), t.length != 0) {
+                                                        if (u[i] || (u[i] = []), t.length == 1) {
+                                                            n.getPerformanceTimings(t[0]);
+                                                            u[i].push(0);
+                                                            return
+                                                        }
+                                                        c = u[i];
+                                                        for (o in t) if (c.indexOf(o) == -1) {
+                                                            n.getPerformanceTimings(t[o]);
+                                                            c.push(o);
+                                                            return
+                                                        }
+                                                        n.getPerformanceTimings(t[0])
+                                                    }
+                                                }
+                                            }, h)
+                                        })(o, e)
+                                }
+                                typeof c == "function" && c.call(i, n)
+                            }
+                        }, o = r[this.rpIndex], o) && (n && !isNaN(n.length) && (o.sendSize = n.length), o.send = t(), s.call(this, n))
+                    }
+                };
+                this.recordPageLoad = function () {
+                    n.data.loadTime = (new Date).getTime();
+                    n.data.loadFired = !0
+                };
+                this.addError = function (t, i, r) {
+                    var s, f, u, e, o;
+                    for (n.data.jsCount++, s = ProfilerJsError.createText(t, i, r), f = n.data.jsErrors, u = 0, e = f; u < e.length; u++) if (o = e[u], o.getText() == s) {
+                        o.count++;
+                        return
+                    }
+                    f.push(new ProfilerJsError(t, i, r))
+                };
+                this.addInfo = function (t, i, r) {
+                    if (!n.isNullOrEmpty(t)) {
+                        if (n.isNullOrEmpty(r)) n.info[t] = i; else {
+                            if (n.isNullOrEmpty(i)) return;
+                            n.isNullOrEmpty(n.info[t]) && (n.info[t] = {});
+                            n.info[t][i] = r
+                        }
+                        n.hasInsight = !0
+                    }
+                };
+                this.clearInfo = function () {
+                    n.info = {};
+                    n.hasInsight = !1
+                };
+                this.clearErrors = function () {
+                    n.data.jsCount = 0;
+                    n.data.jsErrors = []
+                };
+                this.clearAjax = function () {
+                    n.data.ajax = []
+                };
+                this.getInfo = function () {
+                    return n.hasInsight ? n.info : null
+                };
+                this.getEventTimingHandler = function () {
+                    return n.eventsTimingHandler
+                };
+                this.getInputDelay = function () {
+                    return n.inputDelay
+                };
+                this.eventManager.add(WindowEvent.Load, window, this.recordPageLoad);
+                r = this.addError;
+                this.startAjaxCapture();
+                window.opera ? this.eventManager.add(WindowEvent.Error, document, o) : "onerror" in window && (u = window.onerror, window.onerror = function (n, t, i) {
+                    return (r(n, t, i), !!u) ? u(n, t, i) : !1
+                });
+                !window.__cpCdnPath || (this.restUrl = window.__cpCdnPath.trim());
+                e = window.location.protocol;
+                t = document.createElement("iframe");
+                t.src = "about:blank";
+                i = t.style;
+                i.position = "absolute";
+                i.top = "-10000px";
+                i.left = "-1000px";
+                t.addEventListener("load", function (t) {
+                    var r = t.currentTarget, u, i;
+                    r && r.contentDocument && (u = r.contentDocument, i = u.createElement("script"), i.type = "text/javascript", i.src = e + "//" + n.restUrl, u.body.appendChild(i))
+                });
+                f = document.getElementsByTagName("script")[0];
+                f.parentNode.insertBefore(t, f)
+            }
+
+            return n.prototype.isNullOrEmpty = function (n) {
+                if (n === undefined || n === null) return !0;
+                if (typeof n == "string") {
+                    var t = n;
+                    return t.trim().length == 0
+                }
+                return !1
+            }, n.prototype.dispatchCustomEvent = function (n) {
+                (function (n) {
+                    function t(n, t) {
+                        t = t || {bubbles: !1, cancelable: !1, detail: undefined};
+                        var i = document.createEvent("CustomEvent");
+                        return i.initCustomEvent(n, t.bubbles, t.cancelable, t.detail), i
+                    }
+
+                    if (typeof n.CustomEvent == "function") return !1;
+                    t.prototype = Event.prototype;
+                    n.CustomEvent = t
+                })(window);
+                var t = new CustomEvent(n);
+                window.dispatchEvent(t)
+            }, n
+        }(), InputDelayHandler = function () {
+            function n() {
+                var n = this;
+                this.firstInputDelay = 0;
+                this.firstInputTimeStamp = 0;
+                this.startTime = 0;
+                this.delay = 0;
+                this.profileManager = new ProfilerEventManager;
+                this.eventTypes = ["click", "mousedown", "keydown", "touchstart", "pointerdown",];
+                this.addEventListeners = function () {
+                    n.eventTypes.forEach(function (t) {
+                        n.profileManager.add(t, document, n.onInput)
+                    })
+                };
+                this.now = function () {
+                    return (new Date).getTime()
+                };
+                this.removeEventListeners = function () {
+                    n.eventTypes.forEach(function (t) {
+                        n.profileManager.remove(t, document, n.onInput)
+                    })
+                };
+                this.onInput = function (t) {
+                    var i, r, u;
+                    t.cancelable && (i = t.timeStamp > 1e12, n.firstInputTimeStamp = n.now(), r = i || !window.performance, u = r ? n.firstInputTimeStamp : window.performance.now(), n.delay = u - t.timeStamp, t.type == "pointerdown" ? n.onPointerDown() : (n.removeEventListeners(), n.updateFirstInputDelay()))
+                };
+                this.onPointerUp = function () {
+                    n.removeEventListeners();
+                    n.updateFirstInputDelay()
+                };
+                this.onPointerCancel = function () {
+                    n.removePointerEventListeners()
+                };
+                this.removePointerEventListeners = function () {
+                    n.profileManager.remove("pointerup", document, n.onPointerUp);
+                    n.profileManager.remove("pointercancel", document, n.onPointerCancel)
+                };
+                this.updateFirstInputDelay = function () {
+                    n.delay >= 0 && n.delay < n.firstInputTimeStamp - n.startTime && (n.firstInputDelay = Math.round(n.delay))
+                };
+                this.startSoftNavigationCapture = function () {
+                    n.resetSoftNavigationCapture()
+                };
+                this.resetSoftNavigationCapture = function () {
+                    n.resetFirstInputDelay();
+                    n.addEventListeners()
+                };
+                this.resetFirstInputDelay = function () {
+                    n.delay = 0;
+                    n.firstInputDelay = 0;
+                    n.startTime = 0;
+                    n.firstInputTimeStamp = 0
+                };
+                this.startTime = this.now();
+                this.addEventListeners()
+            }
+
+            return n.prototype.onPointerDown = function () {
+                this.profileManager.add("pointerup", document, this.onPointerUp);
+                this.profileManager.add("pointercancel", document, this.onPointerCancel)
+            }, n.prototype.getFirstInputDelay = function () {
+                return this.firstInputDelay
+            }, n
+        }(), EventsTimingHandler = function () {
+            function n() {
+                var n = this;
+                this.hiddenStrings = ["hidden", "msHidden", "webkitHidden", "mozHidden"];
+                this.visibilityStrings = ["visibilitychange", "msvisibilitychange", "webkitvisibilitychange", "mozvisibilitychange"];
+                this.captureSoftNavigation = !1;
+                this.hidden = "hidden";
+                this.visibilityChange = "visibilitychange";
+                this.visibilityEvents = [];
+                this.eventManager = new ProfilerEventManager;
+                this.engagementTimeIntervalMs = 1e3;
+                this.engagementTime = 0;
+                this.firstEngagementTime = 0;
+                this.lastEventTimeStamp = 0;
+                this.timeoutId = undefined;
+                this.startTime = (new Date).getTime();
+                this.now = function () {
+                    return (new Date).getTime()
+                };
+                this.startVisibilityCapture = function () {
+                    n.initializeVisibilityProperties();
+                    document.addEventListener(n.visibilityChange, n.captureFocusEvent, !1)
+                };
+                this.initializeVisibilityProperties = function () {
+                    for (var r = n.hiddenStrings, i = 0, t = 0; t < r.length; t++) typeof document[r[t]] != "undefined" && (i = t);
+                    n.visibilityChange = n.visibilityStrings[i];
+                    n.hidden = n.hiddenStrings[i]
+                };
+                this.captureFocusEvent = function () {
+                    n.updateVisibilityChangeTime();
+                    document[n.hidden] || n.captureEngagementTime()
+                };
+                this.updateVisibilityChangeTime = function () {
+                    document[n.hidden] ? n.captureVisibilityEvent(VisibilityType.Blur) : n.captureVisibilityEvent(VisibilityType.Focus)
+                };
+                this.onBlur = function () {
+                    n.captureVisibilityEvent(VisibilityType.Blur)
+                };
+                this.onFocus = function () {
+                    n.captureVisibilityEvent(VisibilityType.Focus)
+                };
+                this.captureVisibilityEvent = function (t) {
+                    n.visibilityEvents.push({type: t, time: n.now()})
+                };
+                this.captureEngagementTime = function (t) {
+                    if (t === void 0 && (t = !0), !n.lastEventTimeStamp) {
+                        n.engagementTime = n.engagementTimeIntervalMs;
+                        n.lastEventTimeStamp = n.now();
+                        return
+                    }
+                    var i = n.now() - n.lastEventTimeStamp;
+                    if (n.lastEventTimeStamp = n.now(), t && n.firstEngagementTime === 0 && (n.firstEngagementTime = n.now()), i > 0 && i < n.engagementTimeIntervalMs) {
+                        clearTimeout(n.timeoutId);
+                        n.engagementTime += i;
+                        return
+                    }
+                    n.startTimer()
+                };
+                this.captureMouseMove = function () {
+                    n.captureEngagementTime(!1)
+                };
+                this.startTimer = function () {
+                    n.timeoutId = setTimeout(function () {
+                        n.engagementTime += n.engagementTimeIntervalMs
+                    }, n.engagementTimeIntervalMs)
+                };
+                this.getFocusAwayTime = function () {
+                    var i = n.visibilityEvents, t = -1, s, h, o;
+                    if (i.length === 0) return 0;
+                    for (var r = t, u = 0, f = t, e = 0; u < i.length;) i[u].type === VisibilityType.Blur && r === t && (r = u), s = f === t && r !== t, i[u].type === VisibilityType.Focus && s && (f = u), h = r !== t && f !== t, h && (o = i[f].time - i[r].time, o > 0 && (e += o), r = t, f = t), u = u + 1;
+                    return r === i.length - 1 && (e += n.now() - i[r].time), e
+                };
+                this.getEngagementTime = function () {
+                    return n.engagementTime
+                };
+                this.getStartTime = function () {
+                    return n.startTime
+                };
+                this.getFirstEngagementTime = function () {
+                    return n.firstEngagementTime
+                };
+                this.startSoftNavigationCapture = function () {
+                    n.captureSoftNavigation = !0
+                };
+                this.resetSoftNavigationCapture = function () {
+                    n.resetEngagementMetrics();
+                    n.visibilityEvents = []
+                };
+                this.resetEngagementMetrics = function () {
+                    n.engagementTime = 0;
+                    n.lastEventTimeStamp = n.now();
+                    n.firstEngagementTime = 0
+                };
+                this.clear = function () {
+                    n.eventManager.clear()
+                };
+                this.captureEngagementTime(!1);
+                this.eventManager.add("scroll", document, this.captureEngagementTime);
+                this.eventManager.add("resize", window, this.captureEngagementTime);
+                this.eventManager.add("mouseup", document, this.captureEngagementTime);
+                this.eventManager.add("keyup", document, this.captureEngagementTime);
+                this.eventManager.add("mousemove", document, this.captureMouseMove);
+                this.eventManager.add("focus", window, this.onFocus);
+                this.eventManager.add("blur", window, this.onBlur);
+                this.eventManager.add("focus", document, this.onFocus);
+                this.eventManager.add("blur", document, this.onBlur)
+            }
+
+            return n
+        }(), profiler = new RProfiler;
+        window.RProfiler = profiler;
+        window.WindowEvent = WindowEvent;
+        profiler.dispatchCustomEvent("GlimpseLoaded");
+    </script>
+    <script type="text/javascript">
+        var digitalData = {
+            page: {
+                pageInfo: {
+                    pageName: "biz:mktg:homepage",
+                    lob: "biz",
+                    functionDept: "mktg",
+                    subCategory1: "homepage",
+                    subCategory2: "",
+                    subCategory3: "",
+                    primaryCategory: "biz:mktg",
+                    internalSearchTerm: "",
+                    internalSearchResults: "",
+                    error: "",
+                    pageType: "",
+                    language: "en",
+                    country: "us",
+                    fileGatedType: "",
+                    tollFreeNumber: "",
+                    siteIdentifier: "main site",
+                    pageCategory: "",
+                    pageSubCategory: "",
+                    type: "",
+                    spaFlag: "no"
+                },
+                content: {
+                    name: "communication apis, contact center, business phone, voip",
+                    author: "",
+                    type: "",
+                    publishDate: "",
+                    subCategory: "",
+                    topic: "",
+                    industry: "",
+                    businessSize: "",
+                    profRole: ""
+                }
+            },
+            user: {
+                profile: {
+                    profileInfo: {
+                        targetExperience: "",
+                        responsiveSiteVersion: "desktop",
+                        visitorType: "",
+                        gaCampaign: "",
+                        salesrepFlag: "no"
+                    }
+                }
+            },
+            transaction: {
+                item: {
+                    quantity: "",
+                    price: {
+                        basePrice: ""
+                    },
+                    productInfo: {
+                        productID: ""
+                    }
+                }
+            },
+            eventData: {
+                fIndustry: "",
+                fName: "",
+                fCTA: "",
+                fLines: "",
+                fAreaofinterest: ""
+            }
+        };
+
+        (function () {
+            var width = (window.innerWidth != "undefined") ? window.innerWidth : document.documentElement.clientWidth;
+            digitalData.user.profile.profileInfo.responsiveSiteVersion = (width < 720) ? "mobile" : (width < 992) ? "tablet" : "desktop";
+            var isSalesRep = "no", lsObject = JSON.parse(localStorage.getItem('vng.cart')),
+                urlParams = new URLSearchParams(window.location.search);
+            if (lsObject !== null && lsObject.salesRepId !== null) {
+                isSalesRep = "yes";
+            } else {
+                if (urlParams.has('salesRepId')) {
+                    isSalesRep = "yes";
+                }
+            }
+            digitalData.user.profile.profileInfo.salesrepFlag = isSalesRep;
+        })();
+
+    </script>
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "Organization",
+            "url": "/",
+            "logo": "/content/dam/site/us-en/brand/logos/VonageLogo_Primary_Black.svg",
+            "name": "Vonage",
+            "description": "Whether you need business voip phone service or powerful business cloud solutions, we provide unified communications for businesses of all sizes. Visit now",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Holmdel ",
+                "addressRegion": "NJ",
+                "postalCode": "07733",
+                "streetAddress": "23 Main Street"
+            },
+            "contactPoint": [
+                {
+                    "name": "Vonage",
+                    "@type": "ContactPoint",
+                    "telephone": "+1-844-324-0340",
+                    "contactType": "customer support",
+                    "contactOption": "TollFree",
+                    "areaServed": "United States of America"
+                }
+            ]
+        }
+    </script>
+    <script type="text/javascript">
+        var eCommerceConfig = {
+            b2bApiUrl: "https:\/\/www.vonage.com\/Vonage\/services\/apexrest\/v1\/",
+            storefrontName: "Vonage",
+            priceBook: "VBC Pricebook",
+            zuora: {
+                pageId: "",
+                iframeUrl: "https:\/\/www.zuora.com\/apps\/PublicHostedPageLite.do"
+            },
+            addressValidation: {
+                apiUrl: "https:\/\/api.vonagebusiness.com\/"
+            },
+            safeTech: {
+                paymentTechUrl: "https:\/\/secure.paymentech.com\/kount",
+                paymentTechMechantId: "300494"
+            }
+        }
+    </script>
+    <link rel="stylesheet"
+          href="./etc.clientlibs/vonage/clientlibs/clientlib-site.min.cfd9146e3ddb4504afdefe9cf9bb720b.css"
+          type="text/css">
+    <link rel="shortcut icon" type="image/x-icon"
+          href="./etc.clientlibs/vonage/clientlibs/clientlib-base/resources/favicon.ico"/>
+    <link rel="icon" type="image/x-icon"
+          href="./etc.clientlibs/vonage/clientlibs/clientlib-base/resources/favicon.ico"/>
+</head>
+<body class="generic-page page basicpage">
+<div class="root responsivegrid">
+    <div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+        <div class="experiencefragment aem-GridColumn aem-GridColumn--default--12">
+            <div class="cmp-experiencefragment">
+                <div>
+                    <div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+                        <div class="header aem-GridColumn aem-GridColumn--default--12">
+                            <div hidden>
+                                <span id="new-window">Opens in a new window</span>
+                            </div>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <a class="skip-to-main" href="#main-content">Skip to Main Content</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <header class="Vlt-header Vlt-header--fixed" data-swiftype-index="false">
+                                <div class="Vlt-header__backdrop-overlay"></div>
+                                <div class="Vlt-header__backdrop"></div>
+                                <div class="Vlt-header__content">
+                                    <div class="Vlt-header__logo">
+                                        <a href="/?bypassgeoloc=true" aria-label="Crab Technology Pte. Ltd. Logo"
+                                           class="Vlt-site-logo"
+                                           target="_self">
+                                            <svg class="Vlt-site-logo__vonage--simple" width="230px" height="200px"
+                                                 viewbox="0 0 230 200" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill="currentColor"
+                                                      d="M45.3408,0 L-0.0002,0 L64.6808,146.958 C65.1748,148.081 66.7718,148.07 67.2508,146.942 L88.7628,96.337 L45.3408,0 Z"></path>
+                                                <path fill="currentColor"
+                                                      d="M183.4502,0 C183.4502,0 113.9562,159.156 104.6482,173.833 C93.8292,190.896 86.6592,197.409 73.3912,199.496 C73.2682,199.515 73.1772,199.621 73.1772,199.746 C73.1772,199.886 73.2912,200 73.4312,200 L114.9552,200 C132.9432,200 145.9152,184.979 153.1042,171.714 C161.2742,156.637 229.5902,0 229.5902,0 L183.4502,0 Z"></path>
+                                            </svg>
+                                            <svg class="Vlt-site-logo__vonage" width="913px" height="200px"
+                                                 viewbox="0 0 913 200" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill="currentColor"
+                                                      d="M45.3408,0 L-0.0002,0 L64.6808,146.958 C65.1748,148.081 66.7718,148.07 67.2508,146.942 L88.7628,96.337 L45.3408,0 Z"></path>
+                                                <path fill="currentColor"
+                                                      d="M183.4502,0 C183.4502,0 113.9562,159.156 104.6482,173.833 C93.8292,190.896 86.6592,197.409 73.3912,199.496 C73.2682,199.515 73.1772,199.621 73.1772,199.746 C73.1772,199.886 73.2912,200 73.4312,200 L114.9552,200 C132.9432,200 145.9152,184.979 153.1042,171.714 C161.2742,156.637 229.5902,0 229.5902,0 L183.4502,0 Z"></path>
+
+                                                <g id="svgGroup" stroke-linecap="round" fill-rule="evenodd"
+                                                   transform="translate(280,60) scale(1.5)"
+                                                   fill="currentColor"
+                                                   font-size="9pt" stroke="#000" stroke-width="0.25mm"
+                                                   style="stroke:#000;stroke-width:0.25mm;fill:none">
+                                                    <path fill="currentColor"
+                                                          d="M 51.9 3.1 L 50.1 10.5 Q 47.6 9.7 44.8 9.05 A 59.648 59.648 0 0 0 41.476 8.382 A 76.009 76.009 0 0 0 38.65 7.95 Q 35.3 7.5 31.6 7.5 A 23.057 23.057 0 0 0 26.776 7.98 A 16.792 16.792 0 0 0 21.4 10.1 Q 17.2 12.7 14.55 16.75 A 28.368 28.368 0 0 0 10.856 25.179 A 32.07 32.07 0 0 0 10.7 25.8 Q 9.5 30.8 9.5 35.7 A 38.002 38.002 0 0 0 10.024 42.137 A 30.385 30.385 0 0 0 11.25 46.95 A 28.735 28.735 0 0 0 13.63 52.157 A 23.563 23.563 0 0 0 16.05 55.55 Q 19.1 59.1 23.15 61 Q 27.2 62.9 31.7 62.9 Q 35.9 62.9 39.4 62.45 A 119.594 119.594 0 0 0 41.885 62.106 Q 43.838 61.813 45.4 61.5 Q 48.3 60.9 50.6 60.1 L 52.3 67.2 A 49.499 49.499 0 0 1 49.073 68.149 A 63.844 63.844 0 0 1 46.3 68.8 A 69.287 69.287 0 0 1 43.678 69.306 Q 42.331 69.541 40.823 69.757 A 120.741 120.741 0 0 1 39.8 69.9 A 54.477 54.477 0 0 1 35.416 70.304 A 69.693 69.693 0 0 1 31.7 70.4 A 40.626 40.626 0 0 1 24.75 69.834 A 29.973 29.973 0 0 1 17.85 67.8 A 27.459 27.459 0 0 1 9.843 62.552 A 25.85 25.85 0 0 1 7.95 60.55 Q 4 55.9 2 49.55 A 43.184 43.184 0 0 1 0.237 40.677 A 53.192 53.192 0 0 1 0 35.6 A 53.597 53.597 0 0 1 0.528 27.894 A 39.003 39.003 0 0 1 2.4 20.25 A 35.594 35.594 0 0 1 5.458 13.791 A 28.85 28.85 0 0 1 9 9.1 Q 13.2 4.6 19 2.3 Q 24.8 0 31.7 0 A 69.283 69.283 0 0 1 36.736 0.176 A 56.741 56.741 0 0 1 39.55 0.45 A 73.738 73.738 0 0 1 43.467 1.035 A 57.838 57.838 0 0 1 46.25 1.6 A 87.337 87.337 0 0 1 49.8 2.49 A 70.72 70.72 0 0 1 51.9 3.1 Z"
+                                                          id="0" vector-effect="non-scaling-stroke"/>
+                                                    <path fill="currentColor"
+                                                          d="M 64.4 69.1 L 64.4 0.9 L 81.2 0.9 Q 86.7 0.9 91.25 1.85 A 23.782 23.782 0 0 1 95.402 3.1 A 18.233 18.233 0 0 1 99 5.05 Q 102.2 7.3 103.9 11 A 17.026 17.026 0 0 1 105.062 14.601 Q 105.432 16.354 105.548 18.39 A 33.728 33.728 0 0 1 105.6 20.3 A 32.672 32.672 0 0 1 105.307 24.285 Q 105.021 26.331 104.462 28.038 A 15.412 15.412 0 0 1 103.5 30.35 Q 101.5 34.2 98.6 36.55 A 18.757 18.757 0 0 1 92.166 39.921 A 21.427 21.427 0 0 1 91.9 40 L 91.9 40.2 Q 92.3 40.6 93.15 41.65 A 84.821 84.821 0 0 1 93.753 42.402 Q 94.225 43 94.6 43.5 L 113.9 69.1 L 104 69.1 L 84.2 42 L 72.8 42 L 72.8 69.1 L 64.4 69.1 Z M 81.1 8.4 L 72.8 8.4 L 72.8 34.5 L 82.7 34.5 A 25.363 25.363 0 0 0 85.564 34.347 Q 87.002 34.184 88.229 33.845 A 13.251 13.251 0 0 0 89.3 33.5 A 13.401 13.401 0 0 0 91.716 32.334 A 10.367 10.367 0 0 0 93.7 30.75 Q 95.4 29 96.2 26.7 A 16.402 16.402 0 0 0 97.007 23.025 A 19.434 19.434 0 0 0 97.1 21.7 Q 97.1 18.706 96.567 16.5 A 12.373 12.373 0 0 0 96.05 14.85 Q 95 12.2 92.95 10.8 A 10.929 10.929 0 0 0 90.344 9.51 A 15.029 15.029 0 0 0 87.9 8.9 Q 84.9 8.4 81.1 8.4 Z"
+                                                          id="1" vector-effect="non-scaling-stroke"/>
+                                                    <path fill="currentColor"
+                                                          d="M 115.4 69.1 L 138.8 0.9 L 149.2 0.9 L 172.6 69.1 L 163.9 69.1 L 157.9 50.9 L 130.2 50.9 L 124.1 69.1 L 115.4 69.1 Z M 132.8 42.9 L 155.2 42.9 L 144.2 8.9 L 143.9 8.9 L 132.8 42.9 Z"
+                                                          id="2" vector-effect="non-scaling-stroke"/>
+                                                    <path fill="currentColor"
+                                                          d="M 183.3 69.1 L 183.3 0.9 L 201.5 0.9 Q 211.281 0.9 216.182 4.181 A 12.094 12.094 0 0 1 217.15 4.9 Q 222 8.9 222 17.1 Q 222 20.9 220.95 23.7 A 27.485 27.485 0 0 1 219.984 25.978 Q 219.332 27.331 218.6 28.4 Q 217.1 30.6 215.3 32.2 Q 217.7 33.1 219.8 34.5 Q 221.9 35.9 223.5 37.9 A 14.843 14.843 0 0 1 225.393 41.005 A 18.237 18.237 0 0 1 226.05 42.65 A 16.495 16.495 0 0 1 226.761 45.625 Q 227 47.243 227 49.1 A 27.313 27.313 0 0 1 226.302 55.349 A 24.834 24.834 0 0 1 225.9 56.85 Q 224.8 60.5 222.2 63.2 A 15.96 15.96 0 0 1 218.737 65.89 A 21.94 21.94 0 0 1 215.3 67.5 Q 211 69.1 204.6 69.1 L 183.3 69.1 Z M 191.7 37.5 L 191.7 61.6 L 205.3 61.6 Q 209.815 61.6 212.785 60.009 A 9.76 9.76 0 0 0 215.2 58.2 Q 218.5 54.8 218.5 49.1 Q 218.5 46.6 217.85 44.5 Q 217.2 42.4 215.6 40.85 Q 214.125 39.421 211.716 38.545 A 16.228 16.228 0 0 0 211.3 38.4 Q 209.202 37.7 206.317 37.545 A 31.862 31.862 0 0 0 204.6 37.5 L 191.7 37.5 Z M 191.7 8.4 L 191.7 30.5 L 208.4 30.5 A 9.72 9.72 0 0 0 209.957 28.947 A 12.665 12.665 0 0 0 210.9 27.6 A 13.466 13.466 0 0 0 211.737 26.144 Q 212.122 25.373 212.471 24.468 A 24.505 24.505 0 0 0 212.7 23.85 Q 213.5 21.6 213.5 18.4 Q 213.5 12.673 210.626 10.573 A 5.494 5.494 0 0 0 210.45 10.45 A 10.66 10.66 0 0 0 207.505 9.104 Q 206.165 8.708 204.559 8.535 A 24.833 24.833 0 0 0 201.9 8.4 L 191.7 8.4 Z"
+                                                          id="3" vector-effect="non-scaling-stroke"/>
+                                                </g>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <div class="ecomm-link ecomm-link--mobile ">
+                                        <a href="/buy/cart/" class="ecomm-link__btn" aria-label="redirect to cart page">
+                                            <svg width="24" height="21" xmlns="http://www.w3.org/2000/svg">
+                                                <g fill="none" fill-rule="evenodd">
+                                                    <path d="M8.22 17.7c-.87 0-1.57.7-1.57 1.57 0 .87.7 1.57 1.57 1.57.87 0 1.57-.7 1.57-1.57 0-.87-.7-1.57-1.57-1.57m9.68 1.57c0 .87-.7 1.57-1.57 1.57-.87 0-1.57-.7-1.57-1.57 0-.87.7-1.57 1.57-1.57.87 0 1.57.7 1.57 1.57m2.1-7.35V6.05H5.2L4.63 4H0v1.12h3.78l.26.94 1.78 6.42-.76 3.6H20v-1.12H6.44l.41-1.95L20 11.92z"
+                                                          fill="#000" fill-rule="nonzero"/>
+                                                    <circle fill="#FA7655" cx="20" cy="4" r="4"/>
+                                                </g>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <section class="search-box">
+                                        <div class="search-box__backdrop"></div>
+                                        <button class="search-box__search-icon" aria-label="open site search box">
+                                            <span class="Vlt-icon-search-icon"></span>
+                                        </button>
+                                        <div class="search-box__container">
+                                            <div class="search-box__interaction">
+                                                <form class="search-box__form" _lpchecked="1" action="/search/"
+                                                      method="GET">
+                                                    <input name="q" type="text" placeholder="Search"
+                                                           class="search-box__input" aria-label="search"/>
+                                                </form>
+                                                <button class="search-box__close-icon"
+                                                        aria-label="close site search box">
+                                                    <span class="Vlt-icon-close"></span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </section>
+                                    <button class="Vlt-header__nav-toggle" aria-label="open site navigation menu"
+                                            aria-expanded="false">
+                                        <span></span>
+                                        <span></span>
+                                    </button>
+                                    <button class="Vlt-topmenu-toggle" aria-label="back to site navigation menu">
+                                        Main Menu
+                                    </button>
+                                    <div class="Vlt-header__navigation">
+                                        <nav class="Vlt-topnav" aria-label="main menu">
+                                            <div class="Vlt-topnav__item">
+                                                <button class="Vlt-topnav__button" aria-expanded="false"
+                                                        data-di-id="mainnav_products">
+                                                    Products
+                                                </button>
+                                                <div class="Vlt-topmenu">
+                                                    <span class="Vlt-topmenu__title">Products</span>
+                                                    <div class="Vlt-topmenu__items" role="menu">
+                                                        <div class="Vlt-topmenu__item" role="menuitem">
+                                                            <a class="Vlt-topmenu__link"
+                                                               aria-label="Communications APIs" target="_self"
+                                                               href="/communications-apis/">
+                                                                <div class="Vlt-topmenu__link-content">
+                                                                    <span class="Vlt-topmenu__link-heading">
+                                                                    Communications APIs
+                                                                    </span>
+                                                                    <span class="Vlt-topmenu__link-description">
+                                                                    Build omnichannel conversations that transform your customer experience with programmable messaging, voice, video, and more.
+                                                                    </span>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <div class="Vlt-topmenu__item" role="menuitem">
+                                                            <a class="Vlt-topmenu__link"
+                                                               aria-label="Unified Communications" target="_self"
+                                                               href="/unified-communications/">
+                                                                <div class="Vlt-topmenu__link-content">
+                                                                    <span class="Vlt-topmenu__link-heading">
+                                                                    Unified Communications
+                                                                    </span>
+                                                                    <span class="Vlt-topmenu__link-description">
+                                                                    Business phone systems and much more: flexible communication and collaboration solutions for employees across every channel.
+                                                                    </span>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <div class="Vlt-topmenu__item" role="menuitem">
+                                                            <a class="Vlt-topmenu__link" aria-label="Contact Centers"
+                                                               target="_self" href="/contact-centers/">
+                                                                <div class="Vlt-topmenu__link-content">
+                                                                    <span class="Vlt-topmenu__link-heading">
+                                                                    Contact Centers
+                                                                    </span>
+                                                                    <span class="Vlt-topmenu__link-description">
+                                                                    CRM integration across every channel provides your sales and service agents with just what they need to make every conversation great.
+                                                                    </span>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="Vlt-topnav__item">
+                                                <button class="Vlt-topnav__button" aria-expanded="false"
+                                                        data-di-id="mainnav_solutions">
+                                                    Solutions
+                                                </button>
+                                                <div class="Vlt-topmenu">
+                                                    <span class="Vlt-topmenu__title">Solutions</span>
+                                                    <div class="Vlt-topmenu__items" role="menu">
+                                                        <div class="Vlt-topmenu__item" role="menuitem">
+                                                            <a class="Vlt-topmenu__link" aria-label="Healthcare"
+                                                               target="_self" href="/solutions/healthcare/">
+                                                                <div class="Vlt-topmenu__link-content">
+                                                                    <span class="Vlt-topmenu__link-heading">
+                                                                    Healthcare
+                                                                    </span>
+                                                                    <span class="Vlt-topmenu__link-description">
+                                                                    See how cloud communications can enable healthcare providers to consult with patients virtually, and other solutions that can help during the COVID-19 crisis.
+                                                                    </span>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <div class="Vlt-topmenu__item" role="menuitem">
+                                                            <a class="Vlt-topmenu__link" aria-label="Education"
+                                                               target="_self" href="/solutions/education/">
+                                                                <div class="Vlt-topmenu__link-content">
+                                                                    <span class="Vlt-topmenu__link-heading">
+                                                                    Education
+                                                                    </span>
+                                                                    <span class="Vlt-topmenu__link-description">
+                                                                    Create virtual classrooms, record lectures, remove the office from office hours, and more. See how the cloud can help educators, students, and the greater community stay connected.
+                                                                    </span>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <div class="Vlt-topmenu__item" role="menuitem">
+                                                            <a class="Vlt-topmenu__link" aria-label="Finance"
+                                                               target="_self" href="/solutions/financial-services/">
+                                                                <div class="Vlt-topmenu__link-content">
+                                                                    <span class="Vlt-topmenu__link-heading">
+                                                                    Finance
+                                                                    </span>
+                                                                    <span class="Vlt-topmenu__link-description">
+                                                                    Our unified communications, contact centers, and APIs offer security-focused customer experiences on any device, using voice, SMS, messaging, and video.
+                                                                    </span>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <div class="Vlt-topmenu__item" role="menuitem">
+                                                            <a class="Vlt-topmenu__link"
+                                                               aria-label="Retail &amp; E-commerce" target="_self"
+                                                               href="/solutions/retail-ecommerce/">
+                                                                <div class="Vlt-topmenu__link-content">
+                                                                    <span class="Vlt-topmenu__link-heading">
+                                                                    Retail &amp; E-commerce
+                                                                    </span>
+                                                                    <span class="Vlt-topmenu__link-description">
+                                                                    We can help retailers deliver exceptional customer experiences in real time, on any device, in a wide variety of channels.
+                                                                    </span>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <div class="Vlt-topmenu__item" role="menuitem">
+                                                            <a class="Vlt-topmenu__link"
+                                                               aria-label="Transportation &amp; Logistics"
+                                                               target="_self"
+                                                               href="/solutions/transportation-logistics/">
+                                                                <div class="Vlt-topmenu__link-content">
+                                                                    <span class="Vlt-topmenu__link-heading">
+                                                                    Transportation &amp; Logistics
+                                                                    </span>
+                                                                    <span class="Vlt-topmenu__link-description">
+                                                                    Our API, contact center, and unified communication solutions help carriers improve customer satisfaction and maximize service levels.
+                                                                    </span>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <div class="Vlt-topmenu__item" role="menuitem">
+                                                            <a class="Vlt-topmenu__link" aria-label="Manufacturing"
+                                                               target="_self" href="/solutions/manufacturing/">
+                                                                <div class="Vlt-topmenu__link-content">
+                                                                    <span class="Vlt-topmenu__link-heading">
+                                                                    Manufacturing
+                                                                    </span>
+                                                                    <span class="Vlt-topmenu__link-description">
+                                                                    Exceed your customers’ needs and keep your teams connected across offices, warehouses, production facilities and more.
+                                                                    </span>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="Vlt-topnav__item">
+                                                <a class="Vlt-topnav__link true" href="/resources/" target="_self"
+                                                   rel="noopener">Resources</a>
+                                            </div>
+                                            <div class="Vlt-topnav__item">
+                                                <a class="Vlt-topnav__link true" href="/developer-center/"
+                                                   target="_self" rel="noopener">Developers</a>
+                                            </div>
+                                            <div class="Vlt-topnav__item">
+                                                <button class="Vlt-topnav__button" aria-expanded="false"
+                                                        data-di-id="mainnav_aboutus">
+                                                    About Us
+                                                </button>
+                                                <div class="Vlt-topmenu">
+                                                    <span class="Vlt-topmenu__title">About Us</span>
+                                                    <div class="Vlt-topmenu__items" role="menu">
+                                                        <div class="Vlt-topmenu__item" role="menuitem">
+                                                            <a class="Vlt-topmenu__link" aria-label="Overview"
+                                                               target="_self" href="/about-us/">
+                                                                <div class="Vlt-topmenu__link-content">
+                                                                    <span class="Vlt-topmenu__link-heading">
+                                                                    Overview
+                                                                    </span>
+                                                                    <span class="Vlt-topmenu__link-description">
+                                                                    Communications have profoundly changed. So have we.
+                                                                    </span>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <div class="Vlt-topmenu__item" role="menuitem">
+                                                            <a class="Vlt-topmenu__link" aria-label="Investor Relations"
+                                                               target="_blank" href="https://ir.vonage.com">
+                                                                <div class="Vlt-topmenu__link-content">
+                                                                    <span class="Vlt-topmenu__link-heading">
+                                                                    Investor Relations
+                                                                    </span>
+                                                                    <span class="Vlt-topmenu__link-description">
+                                                                    Executive bios, press releases, and more.
+                                                                    </span>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <div class="Vlt-topmenu__item" role="menuitem">
+                                                            <a class="Vlt-topmenu__link" aria-label="Awards"
+                                                               target="_self" href="/about-us/awards/">
+                                                                <div class="Vlt-topmenu__link-content">
+                                                                    <span class="Vlt-topmenu__link-heading">
+                                                                    Awards
+                                                                    </span>
+                                                                    <span class="Vlt-topmenu__link-description">
+                                                                    Industry acknowledgements of excellence.
+                                                                    </span>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <div class="Vlt-topmenu__item" role="menuitem">
+                                                            <a class="Vlt-topmenu__link"
+                                                               aria-label="Crab Technology Pte. Ltd. Stories"
+                                                               target="_self" href="/about-us/vonage-stories/">
+                                                                <div class="Vlt-topmenu__link-content">
+                                                                    <span class="Vlt-topmenu__link-heading">
+                                                                    Crab Technology Pte. Ltd. Stories
+                                                                    </span>
+                                                                    <span class="Vlt-topmenu__link-description">
+                                                                    The latest news, thought leadership, and information about Vonage.
+                                                                    </span>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <div class="Vlt-topmenu__item" role="menuitem">
+                                                            <a class="Vlt-topmenu__link" aria-label="Media Coverage"
+                                                               target="_self" href="/about-us/media-coverage/">
+                                                                <div class="Vlt-topmenu__link-content">
+                                                                    <span class="Vlt-topmenu__link-heading">
+                                                                    Media Coverage
+                                                                    </span>
+                                                                    <span class="Vlt-topmenu__link-description">
+                                                                    Featured stories of Crab Technology Pte. Ltd. in the news.
+                                                                    </span>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                        <div class="Vlt-topmenu__item" role="menuitem">
+                                                            <a class="Vlt-topmenu__link" aria-label="Industry  Analysts"
+                                                               target="_self" href="/about-us/for-analysts/">
+                                                                <div class="Vlt-topmenu__link-content">
+                                                                    <span class="Vlt-topmenu__link-heading">
+                                                                    Industry Analysts
+                                                                    </span>
+                                                                    <span class="Vlt-topmenu__link-description">
+                                                                    See what industry experts are saying about us.
+                                                                    </span>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="ecomm-link ecomm-link--desktop Vlt-topnav__item Vlt-topnav__item--cart">
+                                                <a href="/buy/cart/" class="ecomm-link__btn"
+                                                   aria-label="redirect to cart page">
+                                                    <svg width="24" height="21" xmlns="http://www.w3.org/2000/svg">
+                                                        <g fill="none" fill-rule="evenodd">
+                                                            <path d="M8.22 17.7c-.87 0-1.57.7-1.57 1.57 0 .87.7 1.57 1.57 1.57.87 0 1.57-.7 1.57-1.57 0-.87-.7-1.57-1.57-1.57m9.68 1.57c0 .87-.7 1.57-1.57 1.57-.87 0-1.57-.7-1.57-1.57 0-.87.7-1.57 1.57-1.57.87 0 1.57.7 1.57 1.57m2.1-7.35V6.05H5.2L4.63 4H0v1.12h3.78l.26.94 1.78 6.42-.76 3.6H20v-1.12H6.44l.41-1.95L20 11.92z"
+                                                                  fill="#000" fill-rule="nonzero"/>
+                                                            <circle fill="#FA7655" cx="20" cy="4" r="4"/>
+                                                        </g>
+                                                    </svg>
+                                                </a>
+                                            </div>
+                                            <div class="Vlt-topnav__item Vlt-topnav__item--contact Vlt-topnav__btn">
+                                                <a class="Vlt-topnav__link" href="/contact-us/" target="_self"
+                                                   aria-label="Go to the Contact us page">Contact us</a>
+                                            </div>
+                                        </nav>
+                                        <hr class="Vlt-header__menu-separator"/>
+                                        <div class="Vlt-utility-nav">
+                                            <ul class="Vlt-utility-nav__links">
+                                                <li class="Vlt-utility-nav__item">
+                                                    <a class="Vlt-utility-nav__link"
+                                                       href="/" target="_blank"
+                                                       aria-describedby="new-window">Crab Technology Pte. Ltd. for
+                                                        Home</a>
+                                                </li>
+                                                <li class="Vlt-utility-nav__item">
+                                                    <a class="Vlt-utility-nav__link" href="/log-in/" target="_self">Log
+                                                        In</a>
+                                                </li>
+                                                <li class="Vlt-utility-nav__item">
+                                                    <a class="Vlt-utility-nav__link" href="/support/" target="_self">Support</a>
+                                                </li>
+                                            </ul>
+                                            <div class="country-selector">
+                                                <div class="country-selector__container">
+                                                    <span class="country-selector__spacer"></span>
+                                                    <select class="country-selector__countries">
+                                                        <option selected
+                                                                value="/en.html">
+                                                            Global (English)
+                                                        </option>
+                                                        <option value="./zh.html">
+                                                            中国 (中文)
+                                                        </option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </header>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="generalContainer aem-GridColumn aem-GridColumn--default--12">
+            <div id="main-content">
+                <div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+                    <div class="heroAlternative image aem-GridColumn aem-GridColumn--default--12">
+                        <section class="hero-alt hero-alt--white-text"
+                                 style="background-image: url('/all/content/dam/site/us-en/resources/ceros-assets/track_background.png') , linear-gradient(90deg, #73bcfd 0%, #688ed5 50%, #5c5ba9 100%);;">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12 col-lg-9 hero-alt__title--container">
+                                        <h1 class="hero-alt__title">We&#39;ve uncovered the secrets of winning
+                                            communications. </h1>
+                                    </div>
+                                    <div class="col-12 col-lg-8 offset-lg-2">
+                                        <p class="hero-alt__sub-title ">
+                                            5,000 customers in 14 countries shared how they want to connect.
+                                        </p>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="hero-alt__ctas">
+                                            <div class="hero-alt__cta-primary">
+                                                <a class="btn btn--light"
+                                                   href="/resources/publications/global-customer-engagement-report-2020/"
+                                                   target="_self" aria-label="See  the  data">See the data</a>
+                                            </div>
+                                            <div class="hero-alt__cta-secondary">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="heroCards limitedGrid aem-GridColumn aem-GridColumn--default--12">
+                        <section class="hero-cards">
+                            <div class="hero-cards__spacer hero-cards__spacer--purple-sky"></div>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12  col-lg-4 col-lg-4">
+                                        <div class="hero-cards__card hero-cards__card--magenta-coral">
+                                            <div class="hero-cards__card-extrusion"></div>
+                                            <div class="hero-cards__card-container">
+                                                <div class="hero-cards__card-title-row">
+                                                    <div class="hero-cards__card-icon">
+                                                        <span class="Vlt-icon-card Vlt-icon-card--cloud"></span>
+                                                    </div>
+                                                    <h4 class="hero-cards__card-title">
+                                                        Communications APIs
+                                                    </h4>
+                                                </div>
+                                                <div class="hero-cards__card-content">
+                                                    <p class="hero-cards__card-description">
+                                                        Transform your customer experiences with programmable messaging,
+                                                        voice, video and more.
+                                                    </p>
+                                                </div>
+                                                <div class="hero-cards__card-ctas">
+                                                    <div class="hero-cards__card-cta-primary">
+                                                        <a class="link" href="/communications-apis/" target="_self"
+                                                           aria-label="go to the communications apis pages">Learn
+                                                            more</a>
+                                                    </div>
+                                                    <div class="hero-cards__card-cta-secondary">
+                                                        <a class="btn"
+                                                           href="https://dashboard.nexmo.com/sign-up?icid=tryitfree_homepage_nexmodashbdfreetrialsignup_tile"
+                                                           target="_blank" aria-describedby="new-window"
+                                                           aria-label="go to the APIs  pricing page">Try it free</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12  col-lg-4 col-lg-4">
+                                        <div class="hero-cards__card hero-cards__card--purple-sky">
+                                            <div class="hero-cards__card-extrusion"></div>
+                                            <div class="hero-cards__card-container">
+                                                <div class="hero-cards__card-title-row">
+                                                    <div class="hero-cards__card-icon">
+                                                        <span class="Vlt-icon-card Vlt-icon-card--phone"></span>
+                                                    </div>
+                                                    <h4 class="hero-cards__card-title">
+                                                        Unified Communications
+                                                    </h4>
+                                                </div>
+                                                <div class="hero-cards__card-content">
+                                                    <p class="hero-cards__card-description">
+                                                        Flexible communication and collaboration solutions for employees
+                                                        across every channel.
+                                                    </p>
+                                                </div>
+                                                <div class="hero-cards__card-ctas">
+                                                    <div class="hero-cards__card-cta-primary">
+                                                        <a class="link" href="/unified-communications/" target="_self"
+                                                           aria-label="go to the unified communications page">Learn
+                                                            more</a>
+                                                    </div>
+                                                    <div class="hero-cards__card-cta-secondary">
+                                                        <a class="btn" href="/unified-communications/pricing/"
+                                                           target="_self"
+                                                           aria-label="go to the  unified communications  pricing page">See
+                                                            pricing</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12  col-lg-4 col-lg-4">
+                                        <div class="hero-cards__card hero-cards__card--purple-salmon">
+                                            <div class="hero-cards__card-extrusion"></div>
+                                            <div class="hero-cards__card-container">
+                                                <div class="hero-cards__card-title-row">
+                                                    <div class="hero-cards__card-icon">
+                                                        <span class="Vlt-icon-card Vlt-icon-card--headset"></span>
+                                                    </div>
+                                                    <h4 class="hero-cards__card-title">
+                                                        Contact Centers
+                                                    </h4>
+                                                </div>
+                                                <div class="hero-cards__card-content">
+                                                    <p class="hero-cards__card-description">
+                                                        Provide your sales and service agents with just what they need
+                                                        to make every conversation great.
+                                                    </p>
+                                                </div>
+                                                <div class="hero-cards__card-ctas">
+                                                    <div class="hero-cards__card-cta-primary">
+                                                        <a class="link" href="/contact-centers/" target="_self"
+                                                           aria-label="go to the contact center page">Learn more</a>
+                                                    </div>
+                                                    <div class="hero-cards__card-cta-secondary">
+                                                        <a class="btn" href="/contact-centers/plans/" target="_self"
+                                                           aria-label="go to the contact center plans page">See
+                                                            plans</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+
+                    <section class="flexibleRte aem-GridColumn aem-GridColumn--default--12">
+                        <div class="flexibleRte__padding bottom center-text  ">
+                            <div class="col-12 col-lg-12 col-md-12 center-column">
+                                <div class="text aem-GridColumn aem-GridColumn--default--12">
+                                    <div class="cmp-text">
+                                        <h1>Trusted by trusted businesses</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <div class="logoStrip aem-GridColumn aem-GridColumn--default--12">
+                        <div class="container">
+                            <div class="row logo-strip__logos">
+                                <div class="col logo-strip__logo">
+                                    <img srcset="
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/resources/customer-logos/ab_inbev.png 576w,
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/resources/customer-logos/ab_inbev.png 768w,
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/resources/customer-logos/ab_inbev.png 992w,
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/resources/customer-logos/ab_inbev.png 1200w,
+                                          "
+                                         src="./cdn-cgi/image/fit=scale-down,width=200,f=auto,onerror=redirect/content/dam/site/us-en/resources/customer-logos/ab_inbev.png"
+                                         class="cmp-image__image logo-strip__logo-image" data-cmp-hook-image="image"
+                                         alt="AB inBev logo" title="AB inBev logo"/>
+                                </div>
+                                <div class="col logo-strip__logo">
+                                    <img srcset="
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/resources/customer-logos/allstate.png 576w,
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/resources/customer-logos/allstate.png 768w,
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/resources/customer-logos/allstate.png 992w,
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/resources/customer-logos/allstate.png 1200w,
+                                          "
+                                         src="./cdn-cgi/image/fit=scale-down,width=200,f=auto,onerror=redirect/content/dam/site/us-en/resources/customer-logos/allstate.png"
+                                         class="cmp-image__image logo-strip__logo-image" data-cmp-hook-image="image"
+                                         alt="AllState logo" title="AllState logo"/>
+                                </div>
+                                <div class="col logo-strip__logo">
+                                    <img srcset="
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/resources/customer-logos/dominos.png 576w,
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/resources/customer-logos/dominos.png 768w,
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/resources/customer-logos/dominos.png 992w,
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/resources/customer-logos/dominos.png 1200w,
+                                          "
+                                         src="./cdn-cgi/image/fit=scale-down,width=200,f=auto,onerror=redirect/content/dam/site/us-en/resources/customer-logos/dominos.png"
+                                         class="cmp-image__image logo-strip__logo-image" data-cmp-hook-image="image"
+                                         alt="Domino&#39;s Pizza logo" title="Domino&#39;s Pizza logo"/>
+                                </div>
+                                <div class="col logo-strip__logo">
+                                    <img srcset="
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/resources/customer-logos/concur.png 576w,
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/resources/customer-logos/concur.png 768w,
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/resources/customer-logos/concur.png 992w,
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/resources/customer-logos/concur.png 1200w,
+                                          "
+                                         src="./cdn-cgi/image/fit=scale-down,width=200,f=auto,onerror=redirect/content/dam/site/us-en/resources/customer-logos/concur.png"
+                                         class="cmp-image__image logo-strip__logo-image" data-cmp-hook-image="image"
+                                         alt="Concur logo" title="Concur logo"/>
+                                </div>
+                                <div class="col logo-strip__logo">
+                                    <img srcset="
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/resources/customer-logos/dhl.png 576w,
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/resources/customer-logos/dhl.png 768w,
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/resources/customer-logos/dhl.png 992w,
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/resources/customer-logos/dhl.png 1200w,
+                                          "
+                                         src="./cdn-cgi/image/fit=scale-down,width=200,f=auto,onerror=redirect/content/dam/site/us-en/resources/customer-logos/dhl.png"
+                                         class="cmp-image__image logo-strip__logo-image" data-cmp-hook-image="image"
+                                         alt="DHL logo" title="DHL logo"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="logoStrip aem-GridColumn aem-GridColumn--default--12">
+                        <div class="container">
+                            <div class="row logo-strip__logos">
+                                <div class="col logo-strip__logo">
+                                    <img srcset="
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/resources/customer-logos/glassdoor.png 576w,
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/resources/customer-logos/glassdoor.png 768w,
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/resources/customer-logos/glassdoor.png 992w,
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/resources/customer-logos/glassdoor.png 1200w,
+                                          "
+                                         src="./cdn-cgi/image/fit=scale-down,width=200,f=auto,onerror=redirect/content/dam/site/us-en/resources/customer-logos/glassdoor.png"
+                                         class="cmp-image__image logo-strip__logo-image" data-cmp-hook-image="image"
+                                         alt="Glassdoor logo" title="Glassdoor logo"/>
+                                </div>
+                                <div class="col logo-strip__logo">
+                                    <img srcset="
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/resources/customer-logos/logostrip/medxm.png 576w,
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/resources/customer-logos/logostrip/medxm.png 768w,
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/resources/customer-logos/logostrip/medxm.png 992w,
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/resources/customer-logos/logostrip/medxm.png 1200w,
+                                          "
+                                         src="./cdn-cgi/image/fit=scale-down,width=200,f=auto,onerror=redirect/content/dam/site/us-en/resources/customer-logos/logostrip/medxm.png"
+                                         class="cmp-image__image logo-strip__logo-image" data-cmp-hook-image="image"
+                                         alt="MedXM logo" title="MedXM logo"/>
+                                </div>
+                                <div class="col logo-strip__logo">
+                                    <img srcset="
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/resources/customer-logos/the_princeton_review.png 576w,
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/resources/customer-logos/the_princeton_review.png 768w,
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/resources/customer-logos/the_princeton_review.png 992w,
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/resources/customer-logos/the_princeton_review.png 1200w,
+                                          "
+                                         src="./cdn-cgi/image/fit=scale-down,width=200,f=auto,onerror=redirect/content/dam/site/us-en/resources/customer-logos/the_princeton_review.png"
+                                         class="cmp-image__image logo-strip__logo-image" data-cmp-hook-image="image"
+                                         alt="The Princeton Review logo" title="The Princeton Review logo"/>
+                                </div>
+                                <div class="col logo-strip__logo">
+                                    <img srcset="
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/resources/customer-logos/thomson_reuters.png 576w,
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/resources/customer-logos/thomson_reuters.png 768w,
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/resources/customer-logos/thomson_reuters.png 992w,
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/resources/customer-logos/thomson_reuters.png 1200w,
+                                          "
+                                         src="./cdn-cgi/image/fit=scale-down,width=200,f=auto,onerror=redirect/content/dam/site/us-en/resources/customer-logos/thomson_reuters.png"
+                                         class="cmp-image__image logo-strip__logo-image" data-cmp-hook-image="image"
+                                         alt="Thompson Reuters logo" title="Thompson Reuters logo"/>
+                                </div>
+                                <div class="col logo-strip__logo">
+                                    <img srcset="
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/resources/customer-logos/zipcar.png 576w,
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/resources/customer-logos/zipcar.png 768w,
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/resources/customer-logos/zipcar.png 992w,
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/resources/customer-logos/zipcar.png 1200w,
+                                          "
+                                         src="./cdn-cgi/image/fit=scale-down,width=200,f=auto,onerror=redirect/content/dam/site/us-en/resources/customer-logos/zipcar.png"
+                                         class="cmp-image__image logo-strip__logo-image" data-cmp-hook-image="image"
+                                         alt="ZipCar logo" title="ZipCar logo"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="action_insert_16076979162011550"><br><br></div>
+
+                    <div class="2upCard aem-GridColumn aem-GridColumn--default--12">
+                        <section class="info-card-2-up">
+                            <div class="container">
+                                <div class="row myclass">
+                                    <div class="col-12 col-lg-6">
+                                        <a class="info-card" href="/resources/publications/video-trends-report/">
+                                            <h2 class="info-card__title">The 2020 Video Trends Report, 2nd Edition</h2>
+                                            <p class="info-card__description">Get our latest insights detailing the
+                                                surge in video usage in the wake of COVID-19, and what&#39;s next for
+                                                your industry.</p>
+                                            <span class="Vlt-icon-arrow-link" aria-hidden="true"></span>
+                                        </a>
+                                    </div>
+                                    <div class="col-12 col-lg-6">
+                                        <a class="info-card"
+                                           href="/resources/publications/communication-key-remote-work/">
+                                            <h2 class="info-card__title">Communication is Key to Remote Work</h2>
+                                            <p class="info-card__description">Working remotely? Us, too. If your
+                                                transition has been rockier than expected, that&#39;s ok. With our ebook
+                                                you&#39;ll be positioned to excel in no time. </p>
+                                            <span class="Vlt-icon-arrow-link" aria-hidden="true"></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="iconPanel limitedGrid aem-GridColumn aem-GridColumn--default--12">
+                        <section class="icon-panel">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12 col-md-6 col-lg-3 col-lg-3">
+                                        <div class="icon-panel__item">
+                                            <div class="icon-panel__image ">
+                                                <img src="./content/dam/site/us-en/unified-communications/iconography/world.svg"
+                                                     class="cmp-image__image " data-cmp-hook-image="image" alt="Globe"
+                                                     title="World"/>
+                                            </div>
+                                            <h2 class="icon-panel__headline">100,000+</h2>
+                                            <span class="icon-panel__description">businesses choose Crab Technology Pte. Ltd., worldwide</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-3 col-lg-3">
+                                        <div class="icon-panel__item">
+                                            <div class="icon-panel__image ">
+                                                <img src="./content/dam/site/us-en/unified-communications/iconography/code.svg"
+                                                     class="cmp-image__image " data-cmp-hook-image="image"
+                                                     alt="Closing tag code" title="Code"/>
+                                            </div>
+                                            <h2 class="icon-panel__headline">940,000+</h2>
+                                            <span class="icon-panel__description">registered developers</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-3 col-lg-3">
+                                        <div class="icon-panel__item">
+                                            <div class="icon-panel__image ">
+                                                <img src="./content/dam/site/us-en/unified-communications/iconography/devices.svg"
+                                                     class="cmp-image__image " data-cmp-hook-image="image"
+                                                     alt="Tablet and phone devices" title="Devices"/>
+                                            </div>
+                                            <h2 class="icon-panel__headline">99.999%</h2>
+                                            <span class="icon-panel__description">uptime reliability*</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-3 col-lg-3">
+                                        <div class="icon-panel__item">
+                                            <div class="icon-panel__image ">
+                                                <img src="./content/dam/site/us-en/unified-communications/iconography/group-4.svg"
+                                                     class="cmp-image__image " data-cmp-hook-image="image"
+                                                     alt="Group of 3 people" title="Group"/>
+                                            </div>
+                                            <h2 class="icon-panel__headline">25 billion</h2>
+                                            <span class="icon-panel__description">minutes &amp; messages terminated yearly</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="endNote aem-GridColumn aem-GridColumn--default--12">
+                        <div class="end-note-block  ">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="end-note">
+                                            <div class="end-note__content">
+                                                <p><i>*Based on Crab Technology Pte. Ltd.'s average up time and/or availability.</i></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-image-3-up aem-GridColumn aem-GridColumn--default--12">
+                        <div class="container" data-analytics-id="_3upimagecard">
+                            <div class="row">
+                                <div class="col-12 col-md-12 col-lg-4 col-lg-4">
+                                    <div class="card-image-3-up__card">
+                                        <a class="Vlt-card-image Vlt-card-image--variation"
+                                           href="/resources/publications/telehealth-video-usage-covid-19/"
+                                           target="_self" aria-label="go to the doxy.me page">
+                                            <div class="Vlt-card-image__image-wrapper">
+                                                <img srcset="
+                                                        ./cdn-cgi/image/500/content/dam/site/us-en/unified-communications/customer-stories/doxyme.png 576w,
+                                                        ./cdn-cgi/image/500/content/dam/site/us-en/unified-communications/customer-stories/doxyme.png 768w,
+                                                        ./cdn-cgi/image/500/content/dam/site/us-en/unified-communications/customer-stories/doxyme.png 992w,
+                                                        ./cdn-cgi/image/500/content/dam/site/us-en/unified-communications/customer-stories/doxyme.png 1200w,
+                                                      "
+                                                     src="./cdn-cgi/image/fit=scale-down,width=500,f=auto,onerror=redirect/content/dam/site/us-en/unified-communications/customer-stories/doxyme.png"
+                                                     class="cmp-image__image Vlt-card-image__image"
+                                                     data-cmp-hook-image="image" alt="Doxy.me logo"
+                                                     title="Doxy.me logo"/>
+                                            </div>
+                                            <div class="Vlt-card-image__body">
+                                                <div class="Vlt-card-image__header">
+                                                <span class="Vlt-card-image__category">
+                                                Communications APIs
+                                                </span>
+                                                    <span class="Vlt-card-image__type">
+                                                Customer story
+                                                </span>
+                                                </div>
+                                                <span class="Vlt-card-image__headline">
+                                                Doxy.me supported over 600,000 doctor-to-patient video sessions with over 11 million video minutes—in a single day <i
+                                                        class="Vlt-icon-arrow-link"></i>
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-12 col-lg-4 col-lg-4">
+
+                                    <div class="card-image-3-up__card">
+                                        <a class="Vlt-card-image Vlt-card-image--variation"
+                                           href="/resources/customers/siemens/" target="_self"
+                                           aria-label="go to the siemens customer page">
+                                            <div class="Vlt-card-image__image-wrapper">
+                                                <img srcset="
+                                                        ./cdn-cgi/image/500/content/dam/site/us-en/unified-communications/customer-stories/siemens.png 576w,
+                                                        ./cdn-cgi/image/500/content/dam/site/us-en/unified-communications/customer-stories/siemens.png 768w,
+                                                        ./cdn-cgi/image/500/content/dam/site/us-en/unified-communications/customer-stories/siemens.png 992w,
+                                                        ./cdn-cgi/image/500/content/dam/site/us-en/unified-communications/customer-stories/siemens.png 1200w,
+                                                      "
+                                                     src="./cdn-cgi/image/fit=scale-down,width=500,f=auto,onerror=redirect/content/dam/site/us-en/unified-communications/customer-stories/siemens.png"
+                                                     class="cmp-image__image Vlt-card-image__image"
+                                                     data-cmp-hook-image="image" alt/>
+                                            </div>
+                                            <div class="Vlt-card-image__body">
+                                                <div class="Vlt-card-image__header">
+                                                <span class="Vlt-card-image__category">
+                                                Contact Centers
+                                                </span>
+                                                    <span class="Vlt-card-image__type">
+                                                Customer Story
+                                                </span>
+                                                </div>
+                                                <span class="Vlt-card-image__headline">
+                                                Siemens uses Crab Technology Pte. Ltd. Contact Center to drive customer service excellence and enable growth <i
+                                                        class="Vlt-icon-arrow-link"></i>
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-12 col-lg-4 col-lg-4">
+                                    <div class="card-image-3-up__card">
+                                        <a class="Vlt-card-image Vlt-card-image--variation"
+                                           href="/resources/customers/ronlight-garmin-israel/" target="_self"
+                                           aria-label="go to the Ronlight Garmin page">
+                                            <div class="Vlt-card-image__image-wrapper">
+                                                <img srcset="
+                                                        ./cdn-cgi/image/500/content/dam/site/us-en/resources/customer-logos/Ronlight_for-2UP_500x500.png 576w,
+                                                        ./cdn-cgi/image/500/content/dam/site/us-en/resources/customer-logos/Ronlight_for-2UP_500x500.png 768w,
+                                                        ./cdn-cgi/image/500/content/dam/site/us-en/resources/customer-logos/Ronlight_for-2UP_500x500.png 992w,
+                                                        ./cdn-cgi/image/500/content/dam/site/us-en/resources/customer-logos/Ronlight_for-2UP_500x500.png 1200w,
+                                                      "
+                                                     src="./cdn-cgi/image/500/content/dam/site/us-en/resources/customer-logos/Ronlight_for-2UP_500x500.png"
+                                                     class="cmp-image__image Vlt-card-image__image"
+                                                     data-cmp-hook-image="image"
+                                                     alt="Ronlight logo for use in 2UP  500x500"
+                                                     title="Ronlight square logo"/>
+                                            </div>
+                                            <div class="Vlt-card-image__body">
+                                                <div class="Vlt-card-image__header">
+                                                <span class="Vlt-card-image__category">
+                                                Crab Technology Pte. Ltd. AI
+                                                </span>
+                                                    <span class="Vlt-card-image__type">
+                                                Customer story
+                                                </span>
+                                                </div>
+                                                <span class="Vlt-card-image__headline">
+                                                Ronlight, distributor of Garmin products in Israel, chose Crab Technology Pte. Ltd. AI to scale their customer experience <i
+                                                        class="Vlt-icon-arrow-link"></i>
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section class="video-overlay">
+                <div class="video-overlay__background"></div>
+                <button class="video-overlay__close" aria-label="Close Button">
+                    <span class="Vlt-icon-close-circle"></span>
+                </button>
+                <div class="video-overlay__video">
+                    <iframe allow="accelerometer; autoplay; encrypted-media; gyroscope;picture-in-picture"
+                            allowfullscreen class="video-overlay__iframe" title="Youtube Video" tabindex="0"></iframe>
+                </div>
+            </section>
+        </div>
+        <div class="experiencefragment aem-GridColumn aem-GridColumn--default--12">
+            <div class="cmp-experiencefragment">
+                <div>
+                    <div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+                        <div class="leadGenAlternative image aem-GridColumn aem-GridColumn--default--12">
+                            <section class="lead-gen-alternative">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-12 col-md-8">
+                                            <div class="lead-gen-alternative__headline-wrapper">
+                                                <div data-cmp-is="image"
+                                                     data-cmp-src="./content/experience-fragments/vonage/live-copies/us/en/lead_gen/master/_jcr_content/root/leadgenalternative.coreimg{.width}.svg/1584467743859/pictograms-2019-vonage-phone.svg"
+                                                     data-asset="/content/dam/site/us-en/brand/pictograms/with-margin/Pictograms_2019_Vonage_Phone.svg"
+                                                     data-asset-id="5cc7cdfd-81fc-4595-8b32-c1c77c10b3d1"
+                                                     data-title="Crab Technology Pte. Ltd. Phone" class="cmp-image"
+                                                     itemscope
+                                                     itemtype="http://schema.org/ImageObject">
+                                                    <img src="./content/dam/site/us-en/brand/pictograms/with-margin/Pictograms_2019_Vonage_Phone.svg"
+                                                         class="cmp-image__image lead-gen-alternative__image"
+                                                         data-cmp-hook-image="image"
+                                                         alt="Deskphone with Crab Technology Pte. Ltd. logo"
+                                                         title="Crab Technology Pte. Ltd. Phone"/>
+                                                    <meta itemprop="caption" content="Crab Technology Pte. Ltd. Phone"/>
+                                                </div>
+                                                <h2 class="lead-gen-alternative__headline">Speak with an expert.</h2>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-8 col-lg-4">
+                                            <div class="lead-gen-alternative__info">
+                                                <div class="lead-gen-alternative__info-links">
+                                                    <span class="Vlt-icon-letter-icon"></span>
+                                                    <a class="link link--light" href="mailto:Recruit@crabtechpte.com"
+                                                       target="_self"
+                                                       aria-label="go to contact us page">Email</a>
+                                                    <span class="Vlt-icon-message-icon"></span>
+                                                    <a class="link link--light" href="tel:+65 6415 8745" target="_self"
+                                                       aria-label="Chat">Chat</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="experiencefragment aem-GridColumn aem-GridColumn--default--12">
+            <div class="cmp-experiencefragment">
+                <div>
+                    <div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+                        <div class="footerAlternative aem-GridColumn aem-GridColumn--default--12">
+                            <footer class="Vlt-footer-alternative" data-swiftype-index="false">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-12 col-md-6">
+                                            <div class="Vlt-footer-alternative__group">
+                                                <div class="Vlt-footer-alternative__section">
+                                                    <h2 class="Vlt-footer-alternative__title">
+                                                    </h2>
+                                                    <ul>
+                                                        <li class="Vlt-footer-alternative__item">
+                                                            <a class="Vlt-footer-alternative__link true"
+                                                               href="/partners/" target="_self">Partners</a>
+                                                        </li>
+                                                        <li class="Vlt-footer-alternative__item">
+                                                            <a class="Vlt-footer-alternative__link true"
+                                                               href="/system-status/" target="_self">System status</a>
+                                                        </li>
+                                                        <li class="Vlt-footer-alternative__item">
+                                                            <a class="Vlt-footer-alternative__link true"
+                                                               href="/downloads/" target="_self">Download apps</a>
+                                                        </li>
+                                                        <li class="Vlt-footer-alternative__item">
+                                                            <a class="Vlt-footer-alternative__link true"
+                                                               href="/support/" target="_blank"
+                                                               aria-describedby="new-window">Support</a>
+                                                        </li>
+                                                        <li class="Vlt-footer-alternative__item">
+                                                            <a class="Vlt-footer-alternative__link true"
+                                                               href="/language-selector/" target="_self">Global
+                                                                contact</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="Vlt-footer-alternative__section">
+                                                    <h2 class="Vlt-footer-alternative__title">
+                                                        Corporate
+                                                    </h2>
+                                                    <ul>
+                                                        <li class="Vlt-footer-alternative__item">
+                                                            <a class="Vlt-footer-alternative__link true" href="/events/"
+                                                               target="_self">Events</a>
+                                                        </li>
+                                                        <li class="Vlt-footer-alternative__item">
+                                                            <a class="Vlt-footer-alternative__link true"
+                                                               href="/careers/" target="_self">Careers</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                            <div class="Vlt-footer-alternative__group">
+                                                <div class="Vlt-footer-alternative__section">
+                                                    <h2 class="Vlt-footer-alternative__title">
+                                                        Legal/Policy
+                                                    </h2>
+                                                    <ul>
+                                                        <li class="Vlt-footer-alternative__item">
+                                                            <a class="Vlt-footer-alternative__link true" href="/legal/"
+                                                               target="_self">Legal</a>
+                                                        </li>
+                                                        <li class="Vlt-footer-alternative__item">
+                                                            <a class="Vlt-footer-alternative__link true"
+                                                               href="/legal/privacy-policy/" target="_self">Privacy</a>
+                                                        </li>
+                                                        <li class="Vlt-footer-alternative__item">
+                                                            <a class="Vlt-footer-alternative__link true"
+                                                               href="/about-us/patents/" target="_self">Patents</a>
+                                                        </li>
+                                                        <li class="Vlt-footer-alternative__item">
+                                                            <a class="Vlt-footer-alternative__link true"
+                                                               href="/legal/copyright-policy/"
+                                                               target="_self">Copyright</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript"
+        src="./etc.clientlibs/vonage/clientlibs/clientlib-site.min.666e59b173d614cae996169b0b622ac9.js"></script>
+</body>
+</html>

@@ -1,0 +1,1187 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8"/>
+    <title>通信 API，联络中心，企业电话，VoIP | Crab Technology Pte. Ltd.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"/>
+
+    <meta name="pageTitle" content="Crab Technology Pte. Ltd."/>
+    <meta name="description" content="Crab Technology Pte. Ltd. 通过统一通信、联络中心和通信 API 提供灵活、可扩展的语音、信息、视频和数据功能。"/>
+    <meta name="pageName" content="Communication APIs, Contact Center, Business Phone, VoIP"/>
+    <meta name="template" content="generic-page-with-leadgen"/>
+
+
+    <meta class="swiftype" name="title" data-type="string" content="Crab Technology Pte. Ltd."/>
+    <meta class="swiftype" name="meta_description" data-type="text"
+          content="Crab Technology Pte. Ltd. 通过统一通信、联络中心和通信 API 提供灵活、可扩展的语音、信息、视频和数据功能。"/>
+    <meta class="swiftype" name="site" data-type="enum" content="Crab Technology Pte. Ltd.-marketing"/>
+    <meta class="swiftype" name="published_at" data-type="date" content="2020-12-09"/>
+
+    <meta class="swiftype" name="language" data-type="enum" content="zh"/>
+    <meta class="swiftype" name="country" data-type="enum" content="cn"/>
+
+    <link rel="alternate" href="./en.html" hreflang="en-us"/>
+    <link rel="canonical" href="./zh.html"/>
+    <meta property="og:url" content="http://crabtechpte.com/"/>
+    <meta property="og:title" content="Crab Technology Pte. Ltd."/>
+    <meta property="og:description" content="Crab Technology Pte. Ltd. 通过统一通信、联络中心和通信 API 提供灵活、可扩展的语音、信息、视频和数据功能。"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image"
+          content="/content/dam/site/us-en/resources/iconography/resources_logo.png"/>
+    <meta property="og:image:height" content="500"/>
+    <meta property="og:image:width" content="500"/>
+
+
+    <script type="text/javascript"
+            src="//assets.adobedtm.com/aa512cb75f2e3e0ee5f88731d3c730fc32883b03/satelliteLib-5b65567b5ca33f955c1735c794afe16a3e47588d.js"></script>
+
+    <!--    <script type="text/javascript" src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" charset="UTF-8"-->
+    <!--            data-domain-script="a99a8314-89d3-4a1f-a02f-65681f6a6955">-->
+    <!--    </script>-->
+    <!--    <script type="text/javascript">-->
+    <!--        function OptanonWrapper() {-->
+    <!--            if ((OnetrustActiveGroups.indexOf(',C0004,') == -1) == true) { // If Inactive then do below-->
+    <!--                Krux('ns:vonagebusiness', 'consent:set', {-->
+    <!--                        dc: false,-->
+    <!--                        al: false,-->
+    <!--                        tg: false,-->
+    <!--                        cd: false,-->
+    <!--                        sh: false,-->
+    <!--                        re: false-->
+    <!--                    }, function (errors, body) {-->
+    <!--                        if (errors) {-->
+    <!--                            console.error(errors);-->
+    <!--                        } else {-->
+    <!--                            console.log('Successfully set consent flags to Inactive.');-->
+    <!--                        }-->
+    <!--                    }-->
+    <!--                );-->
+    <!--            } else { // anything else active.-->
+    <!--                Krux('ns:vonagebusiness', 'consent:set', {-->
+    <!--                        dc: true,-->
+    <!--                        al: true,-->
+    <!--                        tg: true,-->
+    <!--                        cd: true,-->
+    <!--                        sh: false,-->
+    <!--                        re: false-->
+    <!--                    }, function (errors, body) {-->
+    <!--                        if (errors) {-->
+    <!--                            console.error(errors);-->
+    <!--                        } else {-->
+    <!--                            console.log('Successfully set consent flags to Active.');-->
+    <!--                        }-->
+    <!--                    }-->
+    <!--                );-->
+    <!--            }-->
+    <!--        }-->
+    <!--    </script>-->
+
+
+    <script type="text/javascript">
+        var digitalData = {
+            page: {
+                pageInfo: {
+                    pageName: "biz:mktg:homepage",
+                    lob: "biz",
+                    functionDept: "mktg",
+                    subCategory1: "homepage",
+                    subCategory2: "",
+                    subCategory3: "",
+                    primaryCategory: "biz:mktg",
+                    internalSearchTerm: "",
+                    internalSearchResults: "",
+                    error: "",
+                    pageType: "",
+                    language: "zh",
+                    country: "cn",
+                    fileGatedType: "",
+                    tollFreeNumber: "",
+                    siteIdentifier: "main site",
+                    pageCategory: "",
+                    pageSubCategory: "",
+                    type: "",
+                    spaFlag: "no",
+                    appVersion: ""
+                },
+                content: {
+                    name: "communication apis, contact center, business phone, voip",
+                    author: "",
+                    type: "",
+                    publishDate: "",
+                    subCategory: "",
+                    topic: "",
+                    industry: "",
+                    businessSize: "",
+                    profRole: ""
+                }
+            },
+            user: {
+                profile: {
+                    profileInfo: {
+                        targetExperience: "",
+                        responsiveSiteVersion: "desktop",
+                        visitorType: "",
+                        gaCampaign: "",
+                        salesrepFlag: "no"
+                    }
+                }
+            },
+            transaction: {
+                item: {
+                    quantity: "",
+                    price: {
+                        basePrice: ""
+                    },
+                    productInfo: {
+                        productID: ""
+                    }
+                }
+            },
+            eventData: {
+                fIndustry: "",
+                fName: "",
+                fCTA: "",
+                fLines: "",
+                fAreaofinterest: ""
+            }
+        };
+
+        (function () {
+            var width = (window.innerWidth != "undefined") ? window.innerWidth : document.documentElement.clientWidth;
+            digitalData.user.profile.profileInfo.responsiveSiteVersion = (width < 720) ? "mobile" : (width < 992) ? "tablet" : "desktop";
+            var isSalesRep = "no", lsObject = JSON.parse(localStorage.getItem('vng.cart')),
+                urlParams = new URLSearchParams(window.location.search);
+            if (lsObject !== null && lsObject.salesRepId !== null) {
+                isSalesRep = "yes";
+            } else {
+                if (urlParams.has('salesRepId')) {
+                    isSalesRep = "yes";
+                }
+            }
+            digitalData.user.profile.profileInfo.salesrepFlag = isSalesRep;
+        })();
+
+    </script>
+
+
+<!--    <script type="application/ld+json">-->
+<!--        {-->
+<!--            "@context": "http://schema.org",-->
+<!--            "@type": "Organization",-->
+<!--            "url": "/",-->
+<!--            "logo": "/content/dam/site/us-en/brand/logos/VonageLogo_Primary_Black.svg",-->
+<!--            "name": "Vonage",-->
+<!--            "description": "Whether you need business voip phone service or powerful business cloud solutions, we provide unified communications for businesses of all sizes. Visit now",-->
+<!--            "address": {-->
+<!--                "@type": "PostalAddress",-->
+<!--                "addressLocality": "Holmdel ",-->
+<!--                "addressRegion": "NJ",-->
+<!--                "postalCode": "07733",-->
+<!--                "streetAddress": "23 Main Street"-->
+<!--            },-->
+<!--            "contactPoint": [-->
+<!--                {-->
+<!--                    "name": "Vonage",-->
+<!--                    "@type": "ContactPoint",-->
+<!--                    "telephone": "+1-844-324-0340",-->
+<!--                    "contactType": "customer support",-->
+<!--                    "contactOption": "TollFree",-->
+<!--                    "areaServed": "United States of America"-->
+<!--                }-->
+<!--            ]-->
+<!--        }-->
+<!--    </script>-->
+
+
+<!--    <script type="text/javascript">-->
+<!--        var eCommerceConfig = {-->
+<!--            b2bApiUrl: "\/Vonage\/services\/apexrest\/v1\/",-->
+<!--            storefrontName: "Vonage",-->
+<!--            priceBook: "VBC Pricebook",-->
+<!--            zuora: {-->
+<!--                pageId: "",-->
+<!--                iframeUrl: "https:\/\/www.zuora.com\/apps\/PublicHostedPageLite.do"-->
+<!--            },-->
+<!--            addressValidation: {-->
+<!--                apiUrl: "https:\/\/api.vonagebusiness.com\/"-->
+<!--            },-->
+<!--            safeTech: {-->
+<!--                paymentTechUrl: "https:\/\/secure.paymentech.com\/kount",-->
+<!--                paymentTechMechantId: "300494"-->
+<!--            }-->
+<!--        }-->
+<!--    </script>-->
+
+
+    <link rel="stylesheet"
+          href="./etc.clientlibs/vonage/clientlibs/clientlib-site.min.b39eb8c7164669418bbc5b7813ee9ad5.css"
+          type="text/css">
+    <link rel="shortcut icon" type="image/x-icon"
+          href="./etc.clientlibs/vonage/clientlibs/clientlib-base/resources/favicon.ico"/>
+    <link rel="icon" type="image/x-icon"
+          href="./etc.clientlibs/vonage/clientlibs/clientlib-base/resources/favicon.ico"/>
+</head>
+<body class="generic-page page basicpage">
+<!--<section class="announcement" data-announcement="true">-->
+<!--    <div class="announcement__pages">-->
+<!--        <button class="announcement__control announcement__control&#45;&#45;previous" id="announcement-previous-btn"-->
+<!--                aria-label="Go to the previous announcement">-->
+<!--            <span class="Vlt-icon-chevron"></span>-->
+<!--        </button>-->
+<!--        <div class="announcement__page-numbers">-->
+<!--            <span class="announcement__current-page"></span>-->
+<!--            <span aria-hidden="true">/</span>-->
+<!--            <span class="announcement__last-page"></span>-->
+<!--        </div>-->
+<!--        <div role="region" aria-live="polite" class="announcement__aria-live sr-only" data-prefix="Item"-->
+<!--             data-connector="of"></div>-->
+<!--        <button class="announcement__control" id="announcement-next-btn" aria-label="Go to the next announcement">-->
+<!--            <span class="Vlt-icon-chevron"></span>-->
+<!--        </button>-->
+<!--    </div>-->
+<!--    <ul class="announcement__items">-->
+<!--        <li class="announcement__item">-->
+<!--            <p class="announcement__content">-->
+<!--                限时开放: 观看Convo峰会重播-->
+<!--            </p>-->
+<!--            <a class="link link&#45;&#45;light" href="https://vonage.6connex.com/event/ConvoVirtual/login?lang=zh-cn"-->
+<!--               target="_blank" aria-describedby="new-window">立即观看</a>-->
+<!--        </li>-->
+<!--    </ul>-->
+<!--    <button class="announcement__close" aria-label="Close the announcement">-->
+<!--        <span class="Vlt-icon-close"></span>-->
+<!--    </button>-->
+<!--</section>-->
+<div class="root responsivegrid">
+    <div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+        <div class="experiencefragment aem-GridColumn aem-GridColumn--default--12">
+            <div class="cmp-experiencefragment">
+                <div>
+                    <div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+                        <div class="header aem-GridColumn aem-GridColumn--default--12">
+                            <div hidden>
+                                <span id="new-window">Opens in a new window</span>
+                            </div>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <a class="skip-to-main" href="#main-content">Skip to Main Content</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <header class="Vlt-header Vlt-header--fixed" data-swiftype-index="false">
+                                <div class="Vlt-header__backdrop-overlay"></div>
+                                <div class="Vlt-header__backdrop"></div>
+                                <div class="Vlt-header__content">
+                                    <div class="Vlt-header__logo">
+                                        <a href="/" aria-label="Crab Technology Pte. Ltd. Logo" class="Vlt-site-logo"
+                                           target="_self">
+                                            <svg class="Vlt-site-logo__vonage--simple" width="230px" height="200px"
+                                                 viewbox="0 0 230 200" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill="currentColor"
+                                                      d="M45.3408,0 L-0.0002,0 L64.6808,146.958 C65.1748,148.081 66.7718,148.07 67.2508,146.942 L88.7628,96.337 L45.3408,0 Z"></path>
+                                                <path fill="currentColor"
+                                                      d="M183.4502,0 C183.4502,0 113.9562,159.156 104.6482,173.833 C93.8292,190.896 86.6592,197.409 73.3912,199.496 C73.2682,199.515 73.1772,199.621 73.1772,199.746 C73.1772,199.886 73.2912,200 73.4312,200 L114.9552,200 C132.9432,200 145.9152,184.979 153.1042,171.714 C161.2742,156.637 229.5902,0 229.5902,0 L183.4502,0 Z"></path>
+                                            </svg>
+                                            <svg class="Vlt-site-logo__vonage" width="913px" height="200px"
+                                                 viewbox="0 0 913 200" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill="currentColor"
+                                                      d="M45.3408,0 L-0.0002,0 L64.6808,146.958 C65.1748,148.081 66.7718,148.07 67.2508,146.942 L88.7628,96.337 L45.3408,0 Z"></path>
+                                                <path fill="currentColor"
+                                                      d="M183.4502,0 C183.4502,0 113.9562,159.156 104.6482,173.833 C93.8292,190.896 86.6592,197.409 73.3912,199.496 C73.2682,199.515 73.1772,199.621 73.1772,199.746 C73.1772,199.886 73.2912,200 73.4312,200 L114.9552,200 C132.9432,200 145.9152,184.979 153.1042,171.714 C161.2742,156.637 229.5902,0 229.5902,0 L183.4502,0 Z"></path>
+
+                                                <g id="svgGroup" stroke-linecap="round" fill-rule="evenodd"
+                                                   transform="translate(280,60) scale(1.5)"
+                                                   fill="currentColor"
+                                                   font-size="9pt" stroke="#000" stroke-width="0.25mm"
+                                                   style="stroke:#000;stroke-width:0.25mm;fill:none">
+                                                    <path fill="currentColor"
+                                                          d="M 51.9 3.1 L 50.1 10.5 Q 47.6 9.7 44.8 9.05 A 59.648 59.648 0 0 0 41.476 8.382 A 76.009 76.009 0 0 0 38.65 7.95 Q 35.3 7.5 31.6 7.5 A 23.057 23.057 0 0 0 26.776 7.98 A 16.792 16.792 0 0 0 21.4 10.1 Q 17.2 12.7 14.55 16.75 A 28.368 28.368 0 0 0 10.856 25.179 A 32.07 32.07 0 0 0 10.7 25.8 Q 9.5 30.8 9.5 35.7 A 38.002 38.002 0 0 0 10.024 42.137 A 30.385 30.385 0 0 0 11.25 46.95 A 28.735 28.735 0 0 0 13.63 52.157 A 23.563 23.563 0 0 0 16.05 55.55 Q 19.1 59.1 23.15 61 Q 27.2 62.9 31.7 62.9 Q 35.9 62.9 39.4 62.45 A 119.594 119.594 0 0 0 41.885 62.106 Q 43.838 61.813 45.4 61.5 Q 48.3 60.9 50.6 60.1 L 52.3 67.2 A 49.499 49.499 0 0 1 49.073 68.149 A 63.844 63.844 0 0 1 46.3 68.8 A 69.287 69.287 0 0 1 43.678 69.306 Q 42.331 69.541 40.823 69.757 A 120.741 120.741 0 0 1 39.8 69.9 A 54.477 54.477 0 0 1 35.416 70.304 A 69.693 69.693 0 0 1 31.7 70.4 A 40.626 40.626 0 0 1 24.75 69.834 A 29.973 29.973 0 0 1 17.85 67.8 A 27.459 27.459 0 0 1 9.843 62.552 A 25.85 25.85 0 0 1 7.95 60.55 Q 4 55.9 2 49.55 A 43.184 43.184 0 0 1 0.237 40.677 A 53.192 53.192 0 0 1 0 35.6 A 53.597 53.597 0 0 1 0.528 27.894 A 39.003 39.003 0 0 1 2.4 20.25 A 35.594 35.594 0 0 1 5.458 13.791 A 28.85 28.85 0 0 1 9 9.1 Q 13.2 4.6 19 2.3 Q 24.8 0 31.7 0 A 69.283 69.283 0 0 1 36.736 0.176 A 56.741 56.741 0 0 1 39.55 0.45 A 73.738 73.738 0 0 1 43.467 1.035 A 57.838 57.838 0 0 1 46.25 1.6 A 87.337 87.337 0 0 1 49.8 2.49 A 70.72 70.72 0 0 1 51.9 3.1 Z"
+                                                          id="0" vector-effect="non-scaling-stroke"/>
+                                                    <path fill="currentColor"
+                                                          d="M 64.4 69.1 L 64.4 0.9 L 81.2 0.9 Q 86.7 0.9 91.25 1.85 A 23.782 23.782 0 0 1 95.402 3.1 A 18.233 18.233 0 0 1 99 5.05 Q 102.2 7.3 103.9 11 A 17.026 17.026 0 0 1 105.062 14.601 Q 105.432 16.354 105.548 18.39 A 33.728 33.728 0 0 1 105.6 20.3 A 32.672 32.672 0 0 1 105.307 24.285 Q 105.021 26.331 104.462 28.038 A 15.412 15.412 0 0 1 103.5 30.35 Q 101.5 34.2 98.6 36.55 A 18.757 18.757 0 0 1 92.166 39.921 A 21.427 21.427 0 0 1 91.9 40 L 91.9 40.2 Q 92.3 40.6 93.15 41.65 A 84.821 84.821 0 0 1 93.753 42.402 Q 94.225 43 94.6 43.5 L 113.9 69.1 L 104 69.1 L 84.2 42 L 72.8 42 L 72.8 69.1 L 64.4 69.1 Z M 81.1 8.4 L 72.8 8.4 L 72.8 34.5 L 82.7 34.5 A 25.363 25.363 0 0 0 85.564 34.347 Q 87.002 34.184 88.229 33.845 A 13.251 13.251 0 0 0 89.3 33.5 A 13.401 13.401 0 0 0 91.716 32.334 A 10.367 10.367 0 0 0 93.7 30.75 Q 95.4 29 96.2 26.7 A 16.402 16.402 0 0 0 97.007 23.025 A 19.434 19.434 0 0 0 97.1 21.7 Q 97.1 18.706 96.567 16.5 A 12.373 12.373 0 0 0 96.05 14.85 Q 95 12.2 92.95 10.8 A 10.929 10.929 0 0 0 90.344 9.51 A 15.029 15.029 0 0 0 87.9 8.9 Q 84.9 8.4 81.1 8.4 Z"
+                                                          id="1" vector-effect="non-scaling-stroke"/>
+                                                    <path fill="currentColor"
+                                                          d="M 115.4 69.1 L 138.8 0.9 L 149.2 0.9 L 172.6 69.1 L 163.9 69.1 L 157.9 50.9 L 130.2 50.9 L 124.1 69.1 L 115.4 69.1 Z M 132.8 42.9 L 155.2 42.9 L 144.2 8.9 L 143.9 8.9 L 132.8 42.9 Z"
+                                                          id="2" vector-effect="non-scaling-stroke"/>
+                                                    <path fill="currentColor"
+                                                          d="M 183.3 69.1 L 183.3 0.9 L 201.5 0.9 Q 211.281 0.9 216.182 4.181 A 12.094 12.094 0 0 1 217.15 4.9 Q 222 8.9 222 17.1 Q 222 20.9 220.95 23.7 A 27.485 27.485 0 0 1 219.984 25.978 Q 219.332 27.331 218.6 28.4 Q 217.1 30.6 215.3 32.2 Q 217.7 33.1 219.8 34.5 Q 221.9 35.9 223.5 37.9 A 14.843 14.843 0 0 1 225.393 41.005 A 18.237 18.237 0 0 1 226.05 42.65 A 16.495 16.495 0 0 1 226.761 45.625 Q 227 47.243 227 49.1 A 27.313 27.313 0 0 1 226.302 55.349 A 24.834 24.834 0 0 1 225.9 56.85 Q 224.8 60.5 222.2 63.2 A 15.96 15.96 0 0 1 218.737 65.89 A 21.94 21.94 0 0 1 215.3 67.5 Q 211 69.1 204.6 69.1 L 183.3 69.1 Z M 191.7 37.5 L 191.7 61.6 L 205.3 61.6 Q 209.815 61.6 212.785 60.009 A 9.76 9.76 0 0 0 215.2 58.2 Q 218.5 54.8 218.5 49.1 Q 218.5 46.6 217.85 44.5 Q 217.2 42.4 215.6 40.85 Q 214.125 39.421 211.716 38.545 A 16.228 16.228 0 0 0 211.3 38.4 Q 209.202 37.7 206.317 37.545 A 31.862 31.862 0 0 0 204.6 37.5 L 191.7 37.5 Z M 191.7 8.4 L 191.7 30.5 L 208.4 30.5 A 9.72 9.72 0 0 0 209.957 28.947 A 12.665 12.665 0 0 0 210.9 27.6 A 13.466 13.466 0 0 0 211.737 26.144 Q 212.122 25.373 212.471 24.468 A 24.505 24.505 0 0 0 212.7 23.85 Q 213.5 21.6 213.5 18.4 Q 213.5 12.673 210.626 10.573 A 5.494 5.494 0 0 0 210.45 10.45 A 10.66 10.66 0 0 0 207.505 9.104 Q 206.165 8.708 204.559 8.535 A 24.833 24.833 0 0 0 201.9 8.4 L 191.7 8.4 Z"
+                                                          id="3" vector-effect="non-scaling-stroke"/>
+                                                </g>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <div class="ecomm-link ecomm-link--mobile ecomm-link--no-search">
+                                        <a href="#" class="ecomm-link__btn" aria-label="redirect to cart page">
+                                            <svg width="24" height="21" xmlns="http://www.w3.org/2000/svg">
+                                                <g fill="none" fill-rule="evenodd">
+                                                    <path d="M8.22 17.7c-.87 0-1.57.7-1.57 1.57 0 .87.7 1.57 1.57 1.57.87 0 1.57-.7 1.57-1.57 0-.87-.7-1.57-1.57-1.57m9.68 1.57c0 .87-.7 1.57-1.57 1.57-.87 0-1.57-.7-1.57-1.57 0-.87.7-1.57 1.57-1.57.87 0 1.57.7 1.57 1.57m2.1-7.35V6.05H5.2L4.63 4H0v1.12h3.78l.26.94 1.78 6.42-.76 3.6H20v-1.12H6.44l.41-1.95L20 11.92z"
+                                                          fill="#000" fill-rule="nonzero"/>
+                                                    <circle fill="#FA7655" cx="20" cy="4" r="4"/>
+                                                </g>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <button class="Vlt-header__nav-toggle" aria-label="open site navigation menu"
+                                            aria-expanded="false">
+                                        <span></span>
+                                        <span></span>
+                                    </button>
+                                    <button class="Vlt-topmenu-toggle" aria-label="back to site navigation menu">
+                                        Main Menu
+                                    </button>
+                                    <div class="Vlt-header__navigation">
+                                        <nav class="Vlt-topnav" aria-label="main menu">
+                                            <div class="Vlt-topnav__item">
+                                                <button class="Vlt-topnav__button" aria-expanded="false"
+                                                        data-di-id="mainnav_产品">产品
+                                                </button>
+                                                <div class="Vlt-topmenu">
+                                                    <span class="Vlt-topmenu__title">产品</span>
+                                                    <div class="Vlt-topmenu__items" role="menu">
+
+                                                        <div class="Vlt-topmenu__item" role="menuitem">
+                                                            <a class="Vlt-topmenu__link" aria-label="通信 API"
+                                                               target="_self" href="/communications-apis/">
+                                                                <div class="Vlt-topmenu__link-content">
+                                                                    <span class="Vlt-topmenu__link-heading">
+                                                                        通信 API
+                                                                    </span>
+                                                                    <span class="Vlt-topmenu__link-description">
+                                                                        通过可编程信息、语音、视频等构建改变客户体验的全渠道对话。
+                                                                    </span>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+
+
+                                                        <div class="Vlt-topmenu__item" role="menuitem">
+                                                            <a class="Vlt-topmenu__link" aria-label="统一通信"
+                                                               target="_self" href="/unified-communications/">
+                                                                <div class="Vlt-topmenu__link-content">
+                                                                    <span class="Vlt-topmenu__link-heading">
+                                                                        统一通信
+                                                                    </span>
+                                                                    <span class="Vlt-topmenu__link-description">
+                                                                        企业电话系统等：适用于各个渠道员工的灵活通信和协作解决方案。
+                                                                    </span>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+
+
+                                                        <div class="Vlt-topmenu__item" role="menuitem">
+                                                            <a class="Vlt-topmenu__link" aria-label="联络中心"
+                                                               target="_self" href="/contact-centers/">
+                                                                <div class="Vlt-topmenu__link-content">
+                                                                    <span class="Vlt-topmenu__link-heading">
+                                                                        联络中心
+                                                                    </span>
+                                                                    <span class="Vlt-topmenu__link-description">
+                                                                        跨各个渠道的 CRM 集成，为您的销售和服务工作人员提供每次对话所需的一切。
+                                                                    </span>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="Vlt-topnav__item">
+                                                <a class="Vlt-topnav__link true" href="/developer-center/"
+                                                   target="_self" rel="noopener">开发人员中心</a>
+                                            </div>
+                                            <div class="Vlt-topnav__item">
+                                                <a class="Vlt-topnav__link true" href="/about-us/" target="_self"
+                                                   rel="noopener">关于我们</a>
+                                            </div>
+                                            <div class="Vlt-topnav__item">
+                                                <a class="Vlt-topnav__link true"
+                                                   href="/resources/" target="_blank"
+                                                   rel="noopener" aria-describedby="new-window">Resources</a>
+                                            </div>
+                                            <div class="ecomm-link ecomm-link--desktop Vlt-topnav__item Vlt-topnav__item--cart">
+                                                <a href="#" class="ecomm-link__btn" aria-label="redirect to cart page">
+                                                    <svg width="24" height="21" xmlns="http://www.w3.org/2000/svg">
+                                                        <g fill="none" fill-rule="evenodd">
+                                                            <path d="M8.22 17.7c-.87 0-1.57.7-1.57 1.57 0 .87.7 1.57 1.57 1.57.87 0 1.57-.7 1.57-1.57 0-.87-.7-1.57-1.57-1.57m9.68 1.57c0 .87-.7 1.57-1.57 1.57-.87 0-1.57-.7-1.57-1.57 0-.87.7-1.57 1.57-1.57.87 0 1.57.7 1.57 1.57m2.1-7.35V6.05H5.2L4.63 4H0v1.12h3.78l.26.94 1.78 6.42-.76 3.6H20v-1.12H6.44l.41-1.95L20 11.92z"
+                                                                  fill="#000" fill-rule="nonzero"/>
+                                                            <circle fill="#FA7655" cx="20" cy="4" r="4"/>
+                                                        </g>
+                                                    </svg>
+                                                </a>
+                                            </div>
+                                            <div class="Vlt-topnav__item Vlt-topnav__item--contact Vlt-topnav__btn">
+                                                <a class="Vlt-topnav__link" href="/contact-us/" target="_self"
+                                                   aria-label="Go to the 联系我们 page">联系我们</a>
+                                            </div>
+                                        </nav>
+                                        <hr class="Vlt-header__menu-separator"/>
+                                        <div class="Vlt-utility-nav">
+                                            <ul class="Vlt-utility-nav__links">
+                                                <li class="Vlt-utility-nav__item">
+                                                    <a class="Vlt-utility-nav__link" href="/log-in/"
+                                                       target="_self">登录</a>
+                                                </li>
+                                                <li class="Vlt-utility-nav__item">
+                                                    <a class="Vlt-utility-nav__link" href="/support/"
+                                                       target="_self">支持</a>
+                                                </li>
+                                            </ul>
+
+                                            <div class="country-selector">
+                                                <div class="country-selector__container">
+                                                    <span class="country-selector__spacer">中国 (中文)</span>
+
+                                                    <select class="country-selector__countries">
+                                                        <option value="/en.html?bypassgeoloc=true">
+                                                            Global (English)
+                                                        </option>
+                                                        <option selected
+                                                                value="/zh.html">
+                                                            中国 (中文)
+                                                        </option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </header>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="generalContainer aem-GridColumn aem-GridColumn--default--12">
+            <div id="main-content">
+                <div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+                    <div class="heroAlternative image aem-GridColumn aem-GridColumn--default--12">
+                        <section class="hero-alt hero-alt--white-text"
+                                 style="background-image: url('content/dam/site/us-en/brand/imagery/site/placeholder/HeroBackground.svg');">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12 col-lg-9 hero-alt__title--container">
+                                        <h1 class="hero-alt__title">我们助力您的企业在数字时代誉满全球</h1>
+                                    </div>
+                                    <div class="col-12 col-lg-8 offset-lg-2">
+                                        <p class="hero-alt__sub-title ">
+                                            此刻与您携手
+                                        </p>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="hero-alt__ctas">
+                                            <div class="hero-alt__cta-primary">
+                                            </div>
+                                            <div class="hero-alt__cta-secondary">
+                                                <a class="btn btn--secondary btn--light" href="/about-us/"
+                                                   target="_self" aria-label="转至关于页面">了解Crab Technology Pte. Ltd.</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="heroCards limitedGrid aem-GridColumn aem-GridColumn--default--12">
+                        <section class="hero-cards">
+                            <div class="hero-cards__spacer hero-cards__spacer--purple-salmon"></div>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12  col-lg-4 col-lg-4">
+                                        <div class="hero-cards__card hero-cards__card--magenta-coral">
+                                            <div class="hero-cards__card-extrusion"></div>
+                                            <div class="hero-cards__card-container">
+                                                <div class="hero-cards__card-title-row">
+                                                    <div class="hero-cards__card-icon">
+                                                        <span class="Vlt-icon-card Vlt-icon-card--cloud"></span>
+                                                    </div>
+                                                    <h4 class="hero-cards__card-title">
+                                                        通信 API
+                                                    </h4>
+                                                </div>
+                                                <div class="hero-cards__card-content">
+                                                    <p class="hero-cards__card-description">
+                                                        通过可编程信息、语音、视频等方式改变客户体验。
+                                                    </p>
+                                                </div>
+                                                <div class="hero-cards__card-ctas">
+                                                    <div class="hero-cards__card-cta-primary">
+                                                        <a class="link" href="/communications-apis/" target="_self"
+                                                           aria-label="转至 Communications API 页面">了解详情</a>
+                                                    </div>
+                                                    <div class="hero-cards__card-cta-secondary">
+                                                        <a class="btn"
+                                                           href="https://dashboard.nexmo.com/sign-up?icid=tryitfree_comm-apis_nexmodashbdfreetrialsignup_btn"
+                                                           target="_blank" aria-describedby="new-window"
+                                                           aria-label="转至“免费试用”注册页面">免费试用</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12  col-lg-4 col-lg-4">
+                                        <div class="hero-cards__card hero-cards__card--purple-sky">
+                                            <div class="hero-cards__card-extrusion"></div>
+                                            <div class="hero-cards__card-container">
+                                                <div class="hero-cards__card-title-row">
+                                                    <div class="hero-cards__card-icon">
+                                                        <span class="Vlt-icon-card Vlt-icon-card--phone"></span>
+                                                    </div>
+                                                    <h4 class="hero-cards__card-title">
+                                                        统一通信
+                                                    </h4>
+                                                </div>
+                                                <div class="hero-cards__card-content">
+                                                    <p class="hero-cards__card-description">
+                                                        为各个渠道的员工提供灵活的通信和协作解决方案。
+                                                    </p>
+                                                </div>
+                                                <div class="hero-cards__card-ctas">
+                                                    <div class="hero-cards__card-cta-primary">
+                                                        <a class="link" href="/unified-communications/" target="_self"
+                                                           aria-label="转至“统一通信”页面">了解详情</a>
+                                                    </div>
+                                                    <div class="hero-cards__card-cta-secondary">
+                                                        <a class="btn" href="/unified-communications/platform/"
+                                                           target="_self" aria-label="转到平台页面">查看平台</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12  col-lg-4 col-lg-4">
+                                        <div class="hero-cards__card hero-cards__card--magenta-coral">
+                                            <div class="hero-cards__card-extrusion"></div>
+                                            <div class="hero-cards__card-container">
+                                                <div class="hero-cards__card-title-row">
+                                                    <div class="hero-cards__card-icon">
+                                                        <span class="Vlt-icon-card Vlt-icon-card--cloud"></span>
+                                                    </div>
+                                                    <h4 class="hero-cards__card-title">
+                                                        联络中心
+                                                    </h4>
+                                                </div>
+                                                <div class="hero-cards__card-content">
+                                                    <p class="hero-cards__card-description">
+                                                        为您的销售和服务工作人员提供圆满结束每次对话所需的一切。
+                                                    </p>
+                                                </div>
+                                                <div class="hero-cards__card-ctas">
+                                                    <div class="hero-cards__card-cta-primary">
+                                                        <a class="link" href="/contact-centers/" target="_self"
+                                                           aria-label="了解详情">了解详情</a>
+                                                    </div>
+                                                    <div class="hero-cards__card-cta-secondary">
+                                                        <a class="btn" href="/contact-centers/plans/" target="_self"
+                                                           aria-label="转至“联络中心方案”页面">查看方案</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="2upCard aem-GridColumn aem-GridColumn--default--12">
+
+                        <section class="info-card-2-up">
+                            <div class="container">
+                                <div class="row myclass">
+                                    <div class="col-12 col-lg-6">
+                                        <a class="info-card"
+                                           href="/resources/articles/digital-businesses-china-acquire-users-partner-international-sms-providers/">
+                                            <h2 class="info-card__title">利用国际化短信平台提高数字业务用户转化率</h2>
+                                            <p class="info-card__description">
+                                                如今几乎所有移动应用和商业网站都通过短信或语音验证来完成新用户注册。信息到达率和用户体验直接影响新用户的转化率
+                                            </p>
+                                            <span class="Vlt-icon-arrow-link" aria-hidden="true"></span>
+                                        </a>
+                                    </div>
+                                    <div class="col-12 col-lg-6">
+                                        <!-- The offset should only be added to the first column -->
+                                        <a class="info-card"
+                                           href="/resources/articles/communications-apis-phases-customer-journey-industries/">
+                                            <h2 class="info-card__title">通信API在各行业中覆盖整个客户旅程</h2>
+                                            <p class="info-card__description">
+                                                通信API在实现营销和客户旅程各阶段互动的自动化部署上颇有成效，这些API不仅帮助企业实现了业务增长目标，同时还大大降低了相关岗位的工作量
+                                            </p>
+                                            <span class="Vlt-icon-arrow-link" aria-hidden="true"></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="iconPanel limitedGrid aem-GridColumn aem-GridColumn--default--12">
+                        <section class="icon-panel">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12 col-md-6 col-lg-3 col-lg-3">
+                                        <div class="icon-panel__item">
+                                            <div class="icon-panel__image ">
+                                                <img src="./content/dam/site/us-en/unified-communications/iconography/world.svg"
+                                                     class="cmp-image__image " data-cmp-hook-image="image" alt="Globe"
+                                                     title="World"/>
+                                            </div>
+                                            <h2 class="icon-panel__headline">100,000+</h2>
+                                            <span class="icon-panel__description">家全球各地企业选择 Crab Technology Pte. Ltd.</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-3 col-lg-3">
+                                        <div class="icon-panel__item">
+                                            <div class="icon-panel__image ">
+                                                <img src="./content/dam/site/us-en/unified-communications/iconography/code.svg"
+                                                     class="cmp-image__image " data-cmp-hook-image="image"
+                                                     alt="Closing tag code" title="Code"/>
+                                            </div>
+                                            <h2 class="icon-panel__headline">940,000+</h2>
+                                            <span class="icon-panel__description">名注册开发者</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-3 col-lg-3">
+                                        <div class="icon-panel__item">
+                                            <div class="icon-panel__image ">
+                                                <img src="./content/dam/site/us-en/unified-communications/iconography/devices.svg"
+                                                     class="cmp-image__image " data-cmp-hook-image="image"
+                                                     alt="Tablet and phone devices" title="Devices"/>
+                                            </div>
+                                            <h2 class="icon-panel__headline">99.999%</h2>
+                                            <span class="icon-panel__description">正常运行时间可靠性*</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-3 col-lg-3">
+                                        <div class="icon-panel__item">
+                                            <div class="icon-panel__image ">
+                                                <img src="./content/dam/site/us-en/unified-communications/iconography/group-4.svg"
+                                                     class="cmp-image__image " data-cmp-hook-image="image"
+                                                     alt="Group of 3 people" title="Group"/>
+                                            </div>
+                                            <h2 class="icon-panel__headline">250 亿</h2>
+                                            <span class="icon-panel__description">每年传递 250 亿分钟的消息</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="endNote aem-GridColumn aem-GridColumn--default--12">
+                        <div class="end-note-block  ">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="end-note">
+                                            <div class="end-note__content">
+                                                <p><i>*基于 Crab Technology Pte. Ltd. 的平均正常运行时间和/或可用性。</i></p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <section class="flexibleRte aem-GridColumn aem-GridColumn--default--12">
+                        <div class="flexibleRte__padding bottom center-text theme-none no-margin">
+                            <div class="col-12 col-lg-12 col-md-12 center-column">
+                                <div class="text aem-GridColumn aem-GridColumn--default--12">
+                                    <div class="cmp-text">
+                                        <h1>Crab Technology Pte. Ltd. 通信 API 深受以下企业信赖（排名不分先后）</h1>
+                                        <p> </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <div class="logoStrip aem-GridColumn aem-GridColumn--default--12">
+                        <div class="container">
+                            <div class="row logo-strip__logos">
+                                <div class="col logo-strip__logo">
+                                    <img srcset="
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/authors/Tuya-Logo.png 576w,
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/authors/Tuya-Logo.png 768w,
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/authors/Tuya-Logo.png 992w,
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/authors/Tuya-Logo.png 1200w,
+                                          "
+                                         src="./cdn-cgi/image/200/content/dam/site/us-en/authors/Tuya-Logo.png"
+                                         class="cmp-image__image logo-strip__logo-image" data-cmp-hook-image="image"
+                                         alt="Tuya"/>
+                                </div>
+                                <div class="col logo-strip__logo">
+                                    <img srcset="
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/api/imagery/PUBG.png 576w,
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/api/imagery/PUBG.png 768w,
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/api/imagery/PUBG.png 992w,
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/api/imagery/PUBG.png 1200w,
+                                          "
+                                         src="./cdn-cgi/image/200/content/dam/site/us-en/api/imagery/PUBG.png"
+                                         class="cmp-image__image logo-strip__logo-image" data-cmp-hook-image="image"
+                                         alt="PUBG"/>
+                                </div>
+                                <div class="col logo-strip__logo">
+                                    <img srcset="
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/api/imagery/grab-logo.png 576w,
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/api/imagery/grab-logo.png 768w,
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/api/imagery/grab-logo.png 992w,
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/api/imagery/grab-logo.png 1200w,
+                                          "
+                                         src="./cdn-cgi/image/200/content/dam/site/us-en/api/imagery/grab-logo.png"
+                                         class="cmp-image__image logo-strip__logo-image" data-cmp-hook-image="image"
+                                         alt="Grab"/>
+                                </div>
+                                <div class="col logo-strip__logo">
+                                    <img srcset="
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/resources/customer-logos/concur.png 576w,
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/resources/customer-logos/concur.png 768w,
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/resources/customer-logos/concur.png 992w,
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/resources/customer-logos/concur.png 1200w,
+                                          "
+                                         src="./cdn-cgi/image/200/content/dam/site/us-en/resources/customer-logos/concur.png"
+                                         class="cmp-image__image logo-strip__logo-image" data-cmp-hook-image="image"
+                                         alt="Concur"/>
+                                </div>
+                                <div class="col logo-strip__logo">
+                                    <img srcset="
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/resources/customer-logos/dominos.png 576w,
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/resources/customer-logos/dominos.png 768w,
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/resources/customer-logos/dominos.png 992w,
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/resources/customer-logos/dominos.png 1200w,
+                                          "
+                                         src="./cdn-cgi/image/200/content/dam/site/us-en/resources/customer-logos/dominos.png"
+                                         class="cmp-image__image logo-strip__logo-image" data-cmp-hook-image="image"
+                                         alt="DHL"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="logoStrip aem-GridColumn aem-GridColumn--default--12">
+                        <div class="container">
+                            <div class="row logo-strip__logos">
+                                <div class="col logo-strip__logo">
+                                    <img srcset="
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/resources/customer-logos/dhl.png 576w,
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/resources/customer-logos/dhl.png 768w,
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/resources/customer-logos/dhl.png 992w,
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/resources/customer-logos/dhl.png 1200w,
+                                          "
+                                         src="./cdn-cgi/image/200/content/dam/site/us-en/resources/customer-logos/dhl.png"
+                                         class="cmp-image__image logo-strip__logo-image" data-cmp-hook-image="image"
+                                         alt="Glassdoor"/>
+                                </div>
+                                <div class="col logo-strip__logo">
+                                    <img srcset="
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/api/imagery/Loreal%20logo.png 576w,
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/api/imagery/Loreal%20logo.png 768w,
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/api/imagery/Loreal%20logo.png 992w,
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/api/imagery/Loreal%20logo.png 1200w,
+                                          "
+                                         src="./cdn-cgi/image/200/content/dam/site/us-en/api/imagery/Loreal%20logo.png"
+                                         class="cmp-image__image logo-strip__logo-image" data-cmp-hook-image="image"
+                                         alt="Loreal"/>
+                                </div>
+                                <div class="col logo-strip__logo">
+                                    <img srcset="
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/resources/customer-logos/logostrip/wse.png 576w,
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/resources/customer-logos/logostrip/wse.png 768w,
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/resources/customer-logos/logostrip/wse.png 992w,
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/resources/customer-logos/logostrip/wse.png 1200w,
+                                          "
+                                         src="./cdn-cgi/image/200/content/dam/site/us-en/resources/customer-logos/logostrip/wse.png"
+                                         class="cmp-image__image logo-strip__logo-image" data-cmp-hook-image="image"
+                                         alt="Wall Street English "/>
+                                </div>
+                                <div class="col logo-strip__logo">
+                                    <img srcset="
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/api/imagery/Zalora_logo.png 576w,
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/api/imagery/Zalora_logo.png 768w,
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/api/imagery/Zalora_logo.png 992w,
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/api/imagery/Zalora_logo.png 1200w,
+                                          "
+                                         src="./cdn-cgi/image/200/content/dam/site/us-en/api/imagery/Zalora_logo.png"
+                                         class="cmp-image__image logo-strip__logo-image" data-cmp-hook-image="image"
+                                         alt="Zalora "/>
+                                </div>
+                                <div class="col logo-strip__logo">
+                                    <img srcset="
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/resources/customer-logos/thomson_reuters.png 576w,
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/resources/customer-logos/thomson_reuters.png 768w,
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/resources/customer-logos/thomson_reuters.png 992w,
+                                            ./cdn-cgi/image/200/content/dam/site/us-en/resources/customer-logos/thomson_reuters.png 1200w,
+                                          "
+                                         src="./cdn-cgi/image/200/content/dam/site/us-en/resources/customer-logos/thomson_reuters.png"
+                                         class="cmp-image__image logo-strip__logo-image" data-cmp-hook-image="image"
+                                         alt="bellface"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="detailsGrid aem-GridColumn aem-GridColumn--default--12">
+                        <section class="details-grid details-grid--light ">
+                            <div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+                                <div class="ghost aem-GridColumn aem-GridColumn--default--12">
+                                </div>
+                                <div class="detail col-12 aem-GridColumn aem-GridColumn--default--12">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-12 col-md-10 offset-md-1 col-lg-5 offset-lg-0">
+                                                <div class="detail__content  detail__content__force-image-width">
+                                                    <img src="./content/dam/site/us-en/api/pictograms/Pictograms_2019_Verify-13.svg"
+                                                         class="cmp-image__image detail__media"
+                                                         data-cmp-hook-image="image" alt="Check mark in shield"
+                                                         title="Verify-13"/>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-md-10 offset-md-1 col-lg-6">
+                                                <div class="detail__content">
+                                                    <div class="detail__eyebrow-container">
+                                                    <span class="detail__eyebrow  ">
+                                                      通信 API
+                                                    </span>
+                                                    </div>
+                                                    <h2 class="detail__title">Verify API</h2>
+                                                    <span class="detail__description">我们的信息和语音验证 API（前 Nexmo）保护企业与用户之间的沟通：在不影响用户体验的前提下部署可扩展的验证解决方案。</span>
+                                                    <ul class="detail__list">
+                                                        <li><span>与客户建立信任</span></li>
+                                                        <li><span>保护企业免受欺诈</span></li>
+                                                        <li><span>可选择通过多种渠道进行验证，包括语音</span></li>
+                                                        <li><span>只为成功的验证付费</span></li>
+                                                        <li><span>现成的逻辑，可构建和测试 PIN 的生成、交付和故障转移</span></li>
+                                                        <li><span>根据国外的合规标准对全球的固定号码和移动号码进行验证</span></li>
+                                                    </ul>
+                                                    <div class="detail__link-wrapper">
+                                                        <a href="/communications-apis/verify/" target="_self"
+                                                           class="link " aria-label="转至验证页面">获取详细信息</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="detail col-12 aem-GridColumn aem-GridColumn--default--12">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-12 col-md-10 offset-md-1 col-lg-5 offset-lg-0">
+                                                <div class="detail__content  detail__content__force-image-width">
+                                                    <img src="./content/dam/site/us-en/contact-centers/illustrations/People_CCAgent.svg"
+                                                         class="cmp-image__image detail__media"
+                                                         data-cmp-hook-image="image"
+                                                         alt="Illustration of an contact center agent. "
+                                                         title="Contact Center Agent"/>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-md-10 offset-md-1 col-lg-6">
+                                                <div class="detail__content">
+                                                    <div class="detail__eyebrow-container">
+                                                    <span class="detail__eyebrow  ">
+                                                      联络中心
+                                                    </span>
+                                                    </div>
+                                                    <h2 class="detail__title">Crab Technology Pte. Ltd. Contact
+                                                        Center</h2>
+                                                    <span class="detail__description">我们屡获殊荣的联络中心（以前称为 NewVoiceMedia）与 Salesforce 无缝集成，最大程度地提高您的通信投资价值。不使用 Salesforce？我们还有其他不错的选择。</span>
+                                                    <ul class="detail__list">
+                                                        <li><span>将呼叫连接到最优秀的工作人员，提供卓越的客户体验 </span></li>
+                                                        <li><span>通过动态路由和智能 IVR 个性化每次互动</span></li>
+                                                        <li><span>直接从 Salesforce 点击拨号，自动记录和呼叫录音</span></li>
+                                                        <li><span>确保跨数字和语音渠道的一致对话</span></li>
+                                                        <li><span>利用强大的语音分析和易于使用的仪表板发掘隐藏的洞察 </span></li>
+                                                        <li><span>利用 AI 功能加快销售进程，提供更优质的服务体验</span></li>
+                                                    </ul>
+                                                    <div class="detail__link-wrapper">
+                                                        <a href="/contact-centers/plans/" target="_self" class="link "
+                                                           aria-label="转至联络中心方案页面">查看方案</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="ghost aem-GridColumn aem-GridColumn--default--12"></div>
+                    <div class="cardContainer baseComponent aem-GridColumn aem-GridColumn--default--12">
+                        <section class="card-image-3-up" data-analytics-id="Copy of cardcontainer">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12 col-lg-4">
+                                        <div class="card-image-3-up__card">
+                                            <a class="Vlt-card-image Vlt-card-image--variation"
+                                               href="/resources/customers/aramex/" target="_self" aria-label="转至案例研究页面">
+                                                <div class="Vlt-card-image__image-wrapper">
+                                                    <img srcset="
+                                                            ./cdn-cgi/image/500/content/dam/site/us-en/api/customer-stories/aramex/Website-casestudies_1015_aramex%20logo.png 576w,
+                                                            ./cdn-cgi/image/500/content/dam/site/us-en/api/customer-stories/aramex/Website-casestudies_1015_aramex%20logo.png 768w,
+                                                            ./cdn-cgi/image/500/content/dam/site/us-en/api/customer-stories/aramex/Website-casestudies_1015_aramex%20logo.png 992w,
+                                                            ./cdn-cgi/image/500/content/dam/site/us-en/api/customer-stories/aramex/Website-casestudies_1015_aramex%20logo.png 1200w,
+                                                          "
+                                                         src="./cdn-cgi/image/500/content/dam/site/us-en/api/customer-stories/aramex/Website-casestudies_1015_aramex%20logo.png"
+                                                         class="cmp-image__image Vlt-card-image__image"
+                                                         data-cmp-hook-image="image" alt="Aramex Logo"
+                                                         title="Aramex Logo"/>
+                                                </div>
+                                                <div class="Vlt-card-image__body">
+                                                    <div class="Vlt-card-image__header">
+                                                        <span class="Vlt-card-image__category">
+                                                            通信 API
+                                                        </span>
+                                                        <span class="Vlt-card-image__type">
+                                                            案例研究
+                                                        </span>
+                                                    </div>
+                                                    <span class="Vlt-card-image__headline">
+                                                        借助 Crab Technology Pte. Ltd. 的消息 API 帮助 Aramex 更高效地交付商品 <i
+                                                            class="Vlt-icon-arrow-link"></i>
+                                                    </span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-4">
+                                        <div class="card-image-3-up__card">
+                                            <a class="Vlt-card-image Vlt-card-image--variation"
+                                               href="/resources/customers/mtd/" target="_self" aria-label="转至案例研究页面">
+                                                <div class="Vlt-card-image__image-wrapper">
+                                                    <img srcset="
+                                                            ./cdn-cgi/image/500/content/dam/site/us-en/contact-centers/customer-stories/mtd/Website-casestudies_1015_mtd%20logo.png 576w,
+                                                            ./cdn-cgi/image/500/content/dam/site/us-en/contact-centers/customer-stories/mtd/Website-casestudies_1015_mtd%20logo.png 768w,
+                                                            ./cdn-cgi/image/500/content/dam/site/us-en/contact-centers/customer-stories/mtd/Website-casestudies_1015_mtd%20logo.png 992w,
+                                                            ./cdn-cgi/image/500/content/dam/site/us-en/contact-centers/customer-stories/mtd/Website-casestudies_1015_mtd%20logo.png 1200w,
+                                                          "
+                                                         src="./cdn-cgi/image/500/content/dam/site/us-en/contact-centers/customer-stories/mtd/Website-casestudies_1015_mtd%20logo.png"
+                                                         class="cmp-image__image Vlt-card-image__image"
+                                                         data-cmp-hook-image="image" alt="MTD Logo" title="MTD Logo"/>
+                                                </div>
+                                                <div class="Vlt-card-image__body">
+                                                    <div class="Vlt-card-image__header">
+                                                        <span class="Vlt-card-image__category">
+                                                            联络中心
+                                                        </span>
+                                                        <span class="Vlt-card-image__type">
+                                                            案例研究
+                                                        </span>
+                                                    </div>
+                                                    <span class="Vlt-card-image__headline">
+                                                        借助 Crab Technology Pte. Ltd. Contact Center 恢复 MTD 经销商网络的客户体验 <i
+                                                            class="Vlt-icon-arrow-link"></i>
+                                                    </span>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col-12 col-lg-4">
+                                        <a class="Vlt-card-image Vlt-card-image--variation"
+                                           href="/resources/customers/ebury/" target="_self"
+                                           aria-label="Ebury 借助适用于 Salesforce 的 Crab Technology Pte. Ltd. Contact Center 加快销售进程">
+                                            <div class="Vlt-card-image__image-wrapper">
+
+
+                                                <img srcset="
+                                                            ./cdn-cgi/image/500/content/dam/site/us-en/unified-communications/customer-stories/ebury_homepage.png 576w,
+                                                            ./cdn-cgi/image/500/content/dam/site/us-en/unified-communications/customer-stories/ebury_homepage.png 768w,
+                                                            ./cdn-cgi/image/500/content/dam/site/us-en/unified-communications/customer-stories/ebury_homepage.png 992w,
+                                                            ./cdn-cgi/image/500/content/dam/site/us-en/unified-communications/customer-stories/ebury_homepage.png 1200w,
+                                                          "
+                                                     src="./cdn-cgi/image/500/content/dam/site/us-en/unified-communications/customer-stories/ebury_homepage.png"
+                                                     class="cmp-image__image Vlt-card-image__image"
+                                                     data-cmp-hook-image="image" alt="Ebury logo"
+                                                     title="Ebury logo"/>
+
+
+                                            </div>
+                                            <div class="Vlt-card-image__body">
+                                                <div class="Vlt-card-image__header">
+                                                        <span class="Vlt-card-image__category">
+                                                            联络中心
+                                                        </span>
+                                                    <span class="Vlt-card-image__type">
+                                                            Ebury
+                                                        </span>
+                                                </div>
+                                                <span class="Vlt-card-image__headline">
+                                                        Ebury 借助适用于 Salesforce 的 Crab Technology Pte. Ltd. Contact Center 加快销售进程 <i
+                                                        class="Vlt-icon-arrow-link"></i>
+                                                    </span>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+                    </div>
+                    </section>
+                </div>
+            </div>
+
+        </div>
+        <section class="video-overlay">
+            <div class="video-overlay__background"></div>
+            <button class="video-overlay__close" aria-label="Close Button">
+                <span class="Vlt-icon-close-circle"></span>
+            </button>
+            <div class="video-overlay__video">
+                <iframe allow="accelerometer; autoplay; encrypted-media; gyroscope;picture-in-picture"
+                        allowfullscreen class="video-overlay__iframe" title="Youtube Video" tabindex="0"></iframe>
+            </div>
+        </section>
+    </div>
+    <div class="experiencefragment aem-GridColumn aem-GridColumn--default--12">
+        <div class="cmp-experiencefragment">
+            <div>
+                <div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+                    <div class="leadGenAlternative image aem-GridColumn aem-GridColumn--default--12">
+                        <section class="lead-gen-alternative">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12 col-md-8">
+                                        <div class="lead-gen-alternative__headline-wrapper">
+                                            <div data-cmp-is="image"
+                                                 data-cmp-src="./content/experience-fragments/vonage/live-copies/cn/zh/lead_gen/master/_jcr_content/root/leadgenalternative.coreimg{.width}.jpeg/1595345344659/qr-code-vonage-china-wechat-account.jpeg"
+                                                 data-asset="/content/dam/site/us-en/api/imagery/QR code_Vonage_China_WeChat Account.jpg"
+                                                 data-asset-id="716c5275-471d-427d-84c0-369a6e89178a"
+                                                 data-title="WeChat Account QR code" class="cmp-image" itemscope
+                                                 itemtype="http://schema.org/ImageObject">
+                                                <img src="./content/dam/site/us-en/api/imagery/QR%20code_Vonage_China_WeChat%20Account.png"
+                                                     class="cmp-image__image lead-gen-alternative__image"
+                                                     data-cmp-hook-image="image" alt="WeChat QR Code"
+                                                     title="WeChat Account QR code"/>
+                                                <meta itemprop="caption" content="WeChat Account QR code"/>
+                                            </div>
+                                            <h2 class="lead-gen-alternative__headline">欢迎关注Crab Technology Pte. Ltd.</h2>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-8 col-lg-4">
+                                        <div class="lead-gen-alternative__info">
+                                            <div class="lead-gen-alternative__info-numbers">
+                                                <div class="lead-gen-alternative__info-numbers__number">
+                                                    <span class="lead-gen-alternative__info-number-label"> </span>
+                                                    <a href="tel:+"
+                                                       class="lead-gen-alternative__info-number-data"></a>
+                                                </div>
+                                            </div>
+                                            <div class="lead-gen-alternative__info-links">
+                                                <span class="Vlt-icon-letter-icon"></span>
+                                                <a class="link link--light" href="mailto:Recruit@crabtechpte.com"
+                                                   target="_self"
+                                                   aria-label="转至联系我们页面">电子邮件</a>
+                                                <span class="Vlt-icon-message-icon"></span>
+                                                <a class="link link--light" href="tel:+65 6415 8745" target="_self"
+                                                   aria-label="联系我们">联系我们</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="experiencefragment aem-GridColumn aem-GridColumn--default--12">
+        <div class="cmp-experiencefragment">
+            <div>
+                <div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+                    <div class="footerAlternative aem-GridColumn aem-GridColumn--default--12">
+                        <footer class="Vlt-footer-alternative" data-swiftype-index="false">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12 col-md-6">
+                                        <div class="Vlt-footer-alternative__group">
+                                            <div class="Vlt-footer-alternative__section">
+                                                <h2 class="Vlt-footer-alternative__title"></h2>
+                                                <ul>
+                                                    <li class="Vlt-footer-alternative__item">
+                                                        <a class="Vlt-footer-alternative__link true"
+                                                           href="/partners/" target="_blank"
+                                                           aria-describedby="new-window">合作伙伴</a>
+                                                    </li>
+                                                    <li class="Vlt-footer-alternative__item">
+                                                        <a class="Vlt-footer-alternative__link true"
+                                                           href="/system-status/" target="_self">系统状态</a>
+                                                    </li>
+                                                    <li class="Vlt-footer-alternative__item">
+                                                        <a class="Vlt-footer-alternative__link true"
+                                                           href="/support/" target="_blank"
+                                                           aria-describedby="new-window">支持</a>
+                                                    </li>
+                                                    <li class="Vlt-footer-alternative__item">
+                                                        <a class="Vlt-footer-alternative__link true"
+                                                           href="/language-selector/"
+                                                           target="_blank" aria-describedby="new-window">全球联络方式</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="Vlt-footer-alternative__section">
+                                                <h2 class="Vlt-footer-alternative__title">
+                                                    企业
+                                                </h2>
+                                                <ul>
+                                                    <li class="Vlt-footer-alternative__item">
+                                                        <a class="Vlt-footer-alternative__link true"
+                                                           href="/" target="_blank"
+                                                           aria-describedby="new-window">投资者</a>
+                                                    </li>
+                                                    <li class="Vlt-footer-alternative__item">
+                                                        <a class="Vlt-footer-alternative__link true"
+                                                           href="/events" target="_blank"
+                                                           aria-describedby="new-window">活动</a>
+                                                    </li>
+                                                    <li class="Vlt-footer-alternative__item">
+                                                        <a class="Vlt-footer-alternative__link true"
+                                                           href="/corporate/careers/"
+                                                           target="_blank" aria-describedby="new-window">招聘</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <div class="Vlt-footer-alternative__group">
+                                            <div class="Vlt-footer-alternative__section">
+                                                <h2 class="Vlt-footer-alternative__title"></h2>
+                                            </div>
+                                            <div class="Vlt-footer-alternative__section">
+                                                <h2 class="Vlt-footer-alternative__title">法律/政策</h2>
+                                                <ul>
+                                                    <li class="Vlt-footer-alternative__item">
+                                                        <a class="Vlt-footer-alternative__link true"
+                                                           href="/legal/" target="_blank"
+                                                           aria-describedby="new-window">法律</a>
+                                                    </li>
+                                                    <li class="Vlt-footer-alternative__item">
+                                                        <a class="Vlt-footer-alternative__link true"
+                                                           href="/legal/privacy-policy"
+                                                           target="_blank" aria-describedby="new-window">隐私</a>
+                                                    </li>
+                                                    <li class="Vlt-footer-alternative__item">
+                                                        <a class="Vlt-footer-alternative__link true"
+                                                           href="/about-us/patents"
+                                                           target="_blank" aria-describedby="new-window">专利</a>
+                                                    </li>
+                                                    <li class="Vlt-footer-alternative__item">
+                                                        <a class="Vlt-footer-alternative__link true"
+                                                           href="/legal/copyright-policy/"
+                                                           target="_blank" aria-describedby="new-window"> 版权</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<script type="text/javascript"
+        src="./etc.clientlibs/vonage/clientlibs/clientlib-site.min.3c09ac00a822077c3c2d36d2d27fdaa6.js"></script>
+</body>
+</html>
